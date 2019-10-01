@@ -1,0 +1,19 @@
+//database
+
+{
+    "people": [
+        {
+            "name": "Jacob Patel",
+            "yearsActive": [2014, 2015, 2016],
+            "email": "jseanpatel@gmail.com",
+            
+        }
+
+    ]
+        "Joe": {
+            "yearsCoached": 19,
+        },
+        "jacob"
+    }
+    
+}
