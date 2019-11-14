@@ -14,15 +14,23 @@
       <a href="https://gridsome.org/docs" target="_blank" rel="noopener">Gridsome Docs</a>
       <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
     </p>
-
+    <technology-tag title="iOS">
+    </technology-tag>
+ 
   </Layout>
 </template>
-w
+
 <script>
+
+import TechnologyTag from '~/components/TechnologyTag.vue'
 export default {
+  components: {
+    TechnologyTag
+  },
   metaInfo: {
     title: 'Hello, world!'
   }
+  
 }
 </script>
 
