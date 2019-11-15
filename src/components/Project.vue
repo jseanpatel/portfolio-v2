@@ -1,13 +1,11 @@
 <template>
-    <div class="bg-gray-700  inline-block px-5 rounded text-white">
-      <p>{{title}}</p>
-    </div>
+  
 </template>
 
 <script>
 export default {
   name: "TechnologyTag",
-  props: ["title"],
+  props: [],
   data() {
     return {
       message: "Try change me!"
