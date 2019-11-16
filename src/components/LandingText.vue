@@ -1,5 +1,5 @@
 <template>
-     <span> <p class="text-white h-auto text-2xl">  <span> {{title1}} </span> {{title2}} </p> </span>
+     <p class="text-white h-auto text-2xl font-sanspro">  <span class="font-semibold"> {{title1}} </span> <span class="font-thin"> {{title2}} </span> </p>
 </template>
 
 <script>
