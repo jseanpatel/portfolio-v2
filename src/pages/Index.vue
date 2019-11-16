@@ -1,21 +1,23 @@
 <template>
   <Layout>
-    <div id="landing">
+    <div id="landing" class="flex w-full h-full absolute left-0 top-0">
+      <div class="w-1/6 bg-gray-400"></div>
+      <div class="w-1/6 bg-gray-500"></div>
+      <div class="w-1/6 bg-gray-400"></div>
+      <div class="w-1/6 bg-gray-500"></div>
+      <div class="w-1/6 bg-gray-400"></div>
+      <div class="w-1/6 bg-gray-500"></div>
     </div>
-    <div id="about">
-    </div>
-    <div id="projects">
-    </div>
-    <div id="footer">
-    </div>
+    <div id="about"></div>
+    <div id="projects"></div>
+    <div id="footer"></div>
   </Layout>
 </template>
 
 <script>
-
-import TechnologyTag from '~/components/TechnologyTag.vue'
-import Project from '~/components/Project.vue'
-import Landing from '~/components/Landing.vue'
+import TechnologyTag from "~/components/TechnologyTag.vue";
+import Project from "~/components/Project.vue";
+import Landing from "~/components/Landing.vue";
 
 export default {
   components: {
@@ -24,10 +26,9 @@ export default {
     Landing
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: "Jacob Patel"
   }
-  
-}
+};
 </script>
 
 <style>
