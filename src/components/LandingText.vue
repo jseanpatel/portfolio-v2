@@ -1,14 +1,11 @@
 <template>
-    <div class="flex mb-4">
-    <div class="w-screen h-screen bg-gray-500">
-    </div>
-    </div>  
+     <span> <p class="text-white h-auto text-2xl">  <span> {{title1}} </span> {{title2}} </p> </span>
 </template>
 
 <script>
 export default {
-  name: "Landing",
-  props: ["title"],
+  name: "LandingText",
+  props: ["title1", "title2"],
   data() {
     return {
       message: "Try change me!"
