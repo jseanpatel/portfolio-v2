@@ -3,7 +3,12 @@ module.exports = {
     extend: {
       fontFamily: {
          sanspro: ["Source Sans Pro", "sans-serif"]
+      },
+      colors: {
+        base_red: '#F25454'
       }
+      // Grays
+      
     }
   }
 }

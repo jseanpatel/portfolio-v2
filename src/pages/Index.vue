@@ -1,12 +1,9 @@
 <template>
   <Layout>
-    <div id="landing" class="flex w-full h-full absolute left-0 top-0">
-      <div class="w-1/6 bg-gray-400"></div>
-      <div class="w-1/6 bg-gray-500"></div>
-      <div class="w-1/6 bg-gray-400"></div>
-      <div class="w-1/6 bg-gray-500"></div>
-      <div class="w-1/6 bg-gray-400"></div>
-      <div class="w-1/6 bg-gray-500"></div>
+    <div id="landing" class="flex w-full h-full absolute left-0 top-0 bg-red-600">
+      <div class="w-1/6 bg-red-600"></div>
+      <div class="w-4/6 bg-red-600"></div>
+      <div class="w-1/6 bg-red-600"></div>
     </div>
     <div id="about"></div>
     <div id="projects"></div>
