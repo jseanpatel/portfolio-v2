@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div id="landing" class="flex w-full h-full bg-red-600">
+    <div id="landing" class="flex w-full h-screen bg-red-600">
       <div class="flex-1 w-1/6 bg-red-600"></div>
       <div class="flex-1 w-4/6 bg-red-600 text-center h-50%">
         <div class="bg-gray-400">
@@ -14,8 +14,10 @@
       <div class="flex-1 w-1/6 bg-red-600"></div>
       <div class="bg-blue-600"></div>
     </div>
-    <divider title="hello"> </divider>
-    
+    <div class="justify-center allign-middle">
+      <divider title="a little bit about me"> </divider>
+    </div>
+   
     <div id="about"></div>
     <div id="projects"></div>
     <div id="footer"></div>
