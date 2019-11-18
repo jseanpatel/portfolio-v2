@@ -3,7 +3,7 @@
     <div id="landing" class="flex w-full h-full absolute left-0 top-0 bg-red-600">
       <div class="flex-1 w-1/6 bg-red-600"></div>
       <div class="flex-1 w-4/6 bg-red-600 text-center h-50%">
-        <landing-text title1="Hi." title2="My name is Jacob. I educate with code."></landing-text>
+         <p class="text-white h-auto text-2xl font-sanspro content-center">  <span class="font-semibold"> Hi. </span> <span class="font-thin"> My name is Jacob. I educate with code. </span> </p>
       </div>
       <div class="flex-1 w-1/6 bg-red-600"></div>
     </div>
