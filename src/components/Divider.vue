@@ -1,6 +1,6 @@
 <template>
-    <div id="landing" class="flex">
-      <div class="flex-1 bg-red-600">
+    <div class="flex h-10% w-full relative ">
+      <div class="flex-1 bg-blue-600">
           {{title}}
       </div>
     </div>
@@ -8,7 +8,7 @@
 
 <script>
 export default {
-   name: "NavigationBar",
+   name: "Divider",
   props: ['title'],
   data() {
     return {
