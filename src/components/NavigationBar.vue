@@ -1,7 +1,13 @@
 <template>
-  <div>
-    <div class="sticky top-0 ...">Sticky Heading 1</div>
-    <p class="py-4">Quisque cursus...</p>
+  <div class="max-w-xs font-sanspro text-white">
+    <a href="#" class="block">about</a>
+    <a href="#" class="block">projects</a>
+    <a href="#" class="block">flyright</a>
+    <a href="#" class="block">maribel</a>
+    <a href="#" class="block">j2c</a>
+    <a href="#" class="block">ruhbl</a>
+    <a href="#" class="block">blog</a>
+    <a href="#" class="block">contact</a>
   </div>
 </template>
 
