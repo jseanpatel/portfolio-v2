@@ -1,13 +1,13 @@
 <template>
-  <div class="max-w-xs font-sanspro text-white">
-    <a href="#" class="block">about</a>
-    <a href="#" class="block">projects</a>
-    <a href="#" class="block">flyright</a>
-    <a href="#" class="block">maribel</a>
-    <a href="#" class="block">j2c</a>
-    <a href="#" class="block">ruhbl</a>
-    <a href="#" class="block">blog</a>
-    <a href="#" class="block">contact</a>
+  <div class="font-sanspro text-white text-center text-xl items-center">
+    <a href="#" class="block font-bold">about</a>
+    <a href="#" class="block font-bold">projects</a>
+    <a href="#" class="block font-light">flyright</a>
+    <a href="#" class="block font-light">maribel</a>
+    <a href="#" class="block font-light">j2c</a>
+    <a href="#" class="block font-light">ruhbl</a>
+    <a href="#" class="block font-bold">blog</a>
+    <a href="#" class="block font-bold">contact</a>
   </div>
 </template>
 
