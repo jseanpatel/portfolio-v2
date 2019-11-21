@@ -6,7 +6,7 @@
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "predeploy": "npm run build",
-    "deploy": "gridsome build && gh-pages -d dist --repo https://jseanpatel"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^2.1.1",
