@@ -9,7 +9,7 @@
           <div class="object-contain h-48 w-full"></div>
         </div>
         <p class="text-white h-auto text-2xl font-sanspro content-center">
-          <span class="font-semibold">Hi.</span>
+          <span class="font-semibold">Hi. </span>
           <span class="font-thin">My name is Jacob. I educate with code.</span>
         </p>
       </div>

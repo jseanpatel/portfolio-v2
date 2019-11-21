@@ -9,6 +9,8 @@ module.exports = {
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
+      siteUrl: 'https://jseanpatel.github.io',
+      pathPrefix: '/Portfolio',
       options: {
         tailwindConfig: './tailwind.config.js',
         purgeConfig: {},
