@@ -1,13 +1,15 @@
 <template>
-  <div class="font-sanspro text-white text-center text-xl items-center">
-    <a href="#" class="block font-bold">about</a>
-    <a href="#" class="block font-bold">projects</a>
-    <a href="#" class="block font-light">flyright</a>
-    <a href="#" class="block font-light">maribel</a>
-    <a href="#" class="block font-light">j2c</a>
-    <a href="#" class="block font-light">ruhbl</a>
-    <a href="#" class="block font-bold">blog</a>
-    <a href="#" class="block font-bold">contact</a>
+  <div class="flex justify-center">
+    <div class="flex flex-col font-sanspro text-white text-center text-xl">
+      <a href="#" class="font-bold">about</a>
+      <a href="#" class="font-bold">projects</a>
+      <a href="#" class="font-light">flyright</a>
+      <a href="#" class="font-light">maribel</a>
+      <a href="#" class="font-light">j2c</a>
+      <a href="#" class="font-light">ruhbl</a>
+      <a href="#" class="font-bold">blog</a>
+      <a href="#" class="font-bold">contact</a>
+    </div>
   </div>
 </template>
 

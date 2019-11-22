@@ -1,20 +1,18 @@
 <template>
   <Layout>
     <div id="landing" class="flex w-full h-screen bg-red-600">
-      <div class="flex-1 w-1/6 bg-red-600">
+      <div class="flex-initial w-1/6 bg-red-600 self-end mb-24">
         <navigation-bar></navigation-bar>
       </div>
-      <div class="flex-1 w-4/6 bg-red-600 text-center h-50%">
-        <div class="bg-gray-400">
-          <div class="object-contain h-48 w-full"></div>
-        </div>
-        <p class="text-white h-auto text-2xl font-sanspro content-center">
-          <span class="font-semibold">Hi. </span>
+      <div class="flex-initial w-4/6 bg-red-600 self-center">
+        <div class="object-contain h-12 bg-gray-400"></div>
+        <p class="flex text-white h-auto text-2xl font-sanspro justify-center">
+          <span class="font-semibold">Hi.</span>
           <span class="font-thin">My name is Jacob. I educate with code.</span>
         </p>
       </div>
-      <div class="flex-1 w-1/6 bg-red-600"></div>
-      <div class="bg-blue-600"></div>
+      <div class="flex-initial w-1/6 bg-red-600"></div>
+      <div class=""></div>
     </div>
     <div id="divider" class="justify-center allign-middle">
       <divider title="a little bit about me"></divider>
