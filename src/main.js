@@ -8,6 +8,6 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
   head.link.push({
     rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700&display=swap'
+    href: 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,400i,600,600i,700&display=swap'
   })
 }

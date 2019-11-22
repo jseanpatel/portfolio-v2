@@ -6,6 +6,8 @@
 
 module.exports = {
   siteName: 'Gridsome',
+  siteUrl: 'https://jseanpatel.github.io',
+  pathPrefix: 'Portfolio',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
