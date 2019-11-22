@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center">
-    <div class="flex flex-col font-sanspro text-white text-center text-xl">
+    <div class="flex flex-col text-2xl text-white font-sanspro text-center">
       <a href="#" class="font-bold">about</a>
       <a href="#" class="font-bold">projects</a>
       <a href="#" class="font-light">flyright</a>

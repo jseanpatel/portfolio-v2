@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-700  inline-block px-5 rounded text-white">
+    <div class="inline-block px-5 text-white bg-gray-700 rounded">
       <p>{{title}}</p>
     </div>
 </template>

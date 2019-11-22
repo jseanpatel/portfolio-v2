@@ -5,14 +5,15 @@
         <navigation-bar></navigation-bar>
       </div>
       <div class="flex-initial w-4/6 bg-red-600 self-center">
-        <div class="object-contain h-12 bg-gray-400"></div>
-        <p class="flex text-white h-auto text-2xl font-sanspro justify-center">
-          <span class="font-semibold">Hi.</span>
-          <span class="font-thin">My name is Jacob. I educate with code.</span>
-        </p>
+        <div class="flex justify-center h-auto text-4xl text-white font-sanspro">
+          <p>
+            <span class="font-semibold">Hi.&nbsp;</span>
+            <span class="font-thin">My name is Jacob. I educate with code.</span>
+          </p>
+        </div>
       </div>
       <div class="flex-initial w-1/6 bg-red-600"></div>
-      <div class=""></div>
+      <div class></div>
     </div>
     <div id="divider" class="justify-center allign-middle">
       <divider title="a little bit about me"></divider>

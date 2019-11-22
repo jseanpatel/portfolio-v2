@@ -1,6 +1,6 @@
 <template>
-    <div class="flex h-12 w-full text-center text-white font-sanspro bg-gray-600">
-      <div class="flex-1 bg-gray-600 self-center">
+    <div class="flex w-full h-12 text-white bg-gray-600 text-center font-sanspro">
+      <div class="self-center flex-1 bg-gray-600">
           {{title}}
       </div>
     </div>
