@@ -30,7 +30,12 @@
     <div id="divider" class="justify-center allign-middle">
       <divider title="get in touch"></divider>
     </div>
-    <div id="footer"></div>
+    <div id="footer" class="flex-row w-full h-screen bg-gray-700">
+      <div class="flex-1 h-half bg-black">
+      </div>
+      <div class="flex-1 h-auto bg-black">
+      </div>
+    </div>
   </Layout>
 </template>
 

@@ -6,8 +6,10 @@ module.exports = {
       },
       colors: {
         base_red: '#F25454'
+      },
+      height: {
+        half: '50%',
       }
-      // Grays
       
     }
   }
