@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div id="landing" class="flex w-full h-screen bg-red-600">
-      <div class="flex-initial w-1/6 bg-red-600 self-end mb-24">
+      <div class="flex-initial w-1/6 bg-red-600 self-end mb-16">
         <navigation-bar></navigation-bar>
       </div>
       <div class="flex-initial w-4/6 bg-red-600 self-center">
