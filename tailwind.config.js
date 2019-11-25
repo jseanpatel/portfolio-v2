@@ -10,6 +10,7 @@ module.exports = {
       },
       height: {
         half: '50%',
+        thin: '0.05rem'
       }
 
     }
