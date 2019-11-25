@@ -19,22 +19,23 @@
       <divider title="a little bit about me"></divider>
     </div>
     <div id="about">
-      <div class="flex w-full h-screen bg-gray-400"></div>
+      <div class="flex w-full h-screen bg-gray-300"></div>
     </div>
     <div id="divider" class="justify-center allign-middle">
       <divider title="a collection of my projects"></divider>
     </div>
     <div id="projects">
-      <div class="flex w-full h-screen bg-gray-400"></div>
+      <div class="flex w-full h-screen bg-gray-300">
+        <project>
+        </project>
+      </div>
     </div>
     <div id="divider" class="justify-center allign-middle">
       <divider title="get in touch"></divider>
     </div>
     <div id="footer" class="flex-row w-full h-screen bg-gray-700">
-      <div class="flex-1 h-half bg-black">
-      </div>
-      <div class="flex-1 h-auto bg-black">
-      </div>
+      <div class="flex-1 bg-black h-half"></div>
+      <div class="flex-1 h-auto bg-black"></div>
     </div>
   </Layout>
 </template>
