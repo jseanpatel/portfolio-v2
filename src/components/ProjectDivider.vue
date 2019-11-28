@@ -1,13 +1,12 @@
 <template>
-    <div class="inline-block px-5 text-white bg-gray-700 rounded">
-      <p>{{title}}</p>
+    <div class="flex w-full h-0.2 text-white bg-gray-400 text-center font-sanspro">
     </div>
 </template>
 
 <script>
 export default {
-  name: "TechnologyTag",
-  props: ["title"],
+   name: "ProjectDivider",
+  props: [],
   data() {
     return {
       message: "Try change me!"
