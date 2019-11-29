@@ -33,6 +33,11 @@
     <div id="projects">
       <div class="flex w-full h-auto bg-background_gray">
         <div class="flex-row w-full h-auto">
+          <div class="w-1/6 bg-black"></div>
+          <div class="w-1/6 bg-black"></div>
+          <div class="w-2/6 bg-black"></div>
+          <div class="w-1/6 bg-black"></div>
+          <div class="w-1/6 bg-black"></div>
           <!-- <project
             project_name="FlyRight: Space Adventure"
             project_description="A dangerous space adventure game."
@@ -62,9 +67,7 @@
       <div class="flex-1 bg-footer_gray h-half"></div>
       <div class="flex-1 h-half bg-footer_black">
         <div class="flex justify-center">
-          <p class="pt-12 text-2xl font-bold text-white">
-            Contacts and Socials:
-          </p>
+          <p class="pt-12 text-2xl font-bold text-white">Contacts and Socials:</p>
         </div>
       </div>
     </div>
