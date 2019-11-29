@@ -27,37 +27,34 @@
     <div id="projects">
       <div class="flex w-full h-auto bg-gray-300">
         <div class="flex-row w-full h-auto">
-        <project
-          project_name="FlyRight: Space Adventure"
-          project_description="A dangerous space adventure game."
-        ></project>
-        <project-divider>
-        </project-divider>
-        <project
-          project_name="Maribel - MLA Formatter"
-          project_description="An all in one tool for formatting papers."
-        ></project>
-        <project-divider>
-        </project-divider>
-        <project
-          project_name="J2C - Jumpstart to College"
-          project_description="A college date and deadline organizer."
-        ></project>
-         <project-divider>
-        </project-divider>
-        <project
-          project_name="RUHBL"
-          project_description="The Redding United History Bowl League Website."
-        ></project>
+          <project
+            project_name="FlyRight: Space Adventure"
+            project_description="A dangerous space adventure game."
+          ></project>
+          <project-divider></project-divider>
+          <project
+            project_name="Maribel - MLA Formatter"
+            project_description="An all in one tool for formatting papers."
+          ></project>
+          <project-divider></project-divider>
+          <project
+            project_name="J2C - Jumpstart to College"
+            project_description="A college date and deadline organizer."
+          ></project>
+          <project-divider></project-divider>
+          <project
+            project_name="RUHBL"
+            project_description="The Redding United History Bowl League Website."
+          ></project>
         </div>
       </div>
     </div>
     <div id="divider" class="justify-center allign-middle">
       <divider title="get in touch"></divider>
     </div>
-    <div id="footer" class="flex-row w-full h-screen bg-gray-700">
-      <div class="flex-1 bg-gray-700 h-half"></div>
-      <div class="flex-1 h-auto bg-black"></div>
+    <div id="footer" class="flex-row w-full h-screen ">
+      <div class="flex-1 bg-footer_gray h-half"></div>
+      <div class="flex-1 h-half bg-footer_black"></div>
     </div>
   </Layout>
 </template>
@@ -68,7 +65,6 @@ import Project from "~/components/Project.vue";
 import NavigationBar from "~/components/NavigationBar.vue";
 import Divider from "~/components/Divider.vue";
 import ProjectDivider from "~/components/ProjectDivider.vue";
-
 
 export default {
   components: {

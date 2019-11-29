@@ -11,6 +11,11 @@ module.exports = {
       height: {
         half: '50%',
         0.2: '0.05rem'
+      },
+      backgroundColor: {
+        footer_gray: '#525252',
+        footer_black: '#333333'
+
       }
 
     }

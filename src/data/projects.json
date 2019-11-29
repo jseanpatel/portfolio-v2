@@ -1,6 +1,5 @@
 {
     "projects": {
-        "ProjectName": "example glossary",
-		
+        "project_name": "FlyRight - Space Adventure"
     }
 }
