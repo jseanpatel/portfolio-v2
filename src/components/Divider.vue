@@ -1,5 +1,5 @@
 <template>
-    <div class="flex w-full h-12 text-white bg-gray-600 text-center font-sanspro">
+    <div class="flex w-full h-12 text-white bg-divider_gray text-center font-sanspro">
       <div class="self-center flex-1">
           {{title}}
       </div>

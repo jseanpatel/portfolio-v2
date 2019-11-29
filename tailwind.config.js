@@ -13,6 +13,8 @@ module.exports = {
         0.2: '0.05rem'
       },
       backgroundColor: {
+        divider_gray: '#959595',
+        background_gray: '#EAEAEA',
         footer_gray: '#525252',
         footer_black: '#333333'
 
