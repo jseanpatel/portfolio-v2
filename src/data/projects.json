@@ -1,6 +1,5 @@
 {
     "projects": {
-        "ProjectName": "FlyRight - Space Adventure",
-		
+        "project_name": "FlyRight - Space Adventure"
     }
 }

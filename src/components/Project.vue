@@ -1,7 +1,9 @@
 <template>
   <div class="flex-initial w-full h-56 bg-gray-100">
-    <div class="flex justify-center w-full h-half">
-      <div class="flex self-center w-64 bg-gray-600 h-half"></div>
+    <div class="flex justify-center w-full h-half ">
+      <div class="flex self-center w-64 bg-divder_gray h-half">
+        
+      </div>
     </div>
     <div class="flex justify-center font-sanspro">
       <div class="flex-row text-center">
