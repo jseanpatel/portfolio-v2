@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <div id="landing" class="flex w-full h-screen bg-red-600">
-      <div class="self-end flex-initial w-1/6 mb-16 bg-red-600">
+      <div class="self-end flex-initial w-1/6 mb-12 bg-red-600">
         <navigation-bar></navigation-bar>
       </div>
       <div class="self-center flex-initial w-4/6 bg-red-600">
@@ -22,8 +22,7 @@
     <div id="about">
       <div class="flex justify-center w-full h-screen bg-background_gray">
         <div
-          class="flex self-center w-2/3 p-24 text-4xl font-normal text-center bg-white h-half font-sanspro"
-        >
+          class="self-center w-2/3 p-12 text-2xl text-center bg-white md:p-24 md:text-4xl h-half font-sanspro">
           <p>I am a student at the University of California, Berkeley where I am studying Computer Science (BA)</p>
         </div>
       </div>
@@ -39,21 +38,22 @@
           <div class="w-2/6 bg-black"></div>
           <div class="w-1/6 bg-black"></div>
           <div class="w-1/6 bg-black"></div>
-          <!-- <project
+         <project
             project_name="FlyRight: Space Adventure"
             project_description="A dangerous space adventure game."
           ></project>
-          <div class="flex w-full h-0.2 text-white bg-gray-400 text-center font-sanspro"></div>
+           <!-- 
+          <div class="flex w-full text-center text-white bg-gray-400 h-xxs font-sanspro"></div>
           <project
             project_name="Maribel - MLA Formatter"
             project_description="An all in one tool for formatting papers."
           ></project>
-          <div class="flex w-full h-0.2 text-white bg-gray-400 text-center font-sanspro"></div>
+          <div class="flex w-full text-center text-white bg-gray-400 h-xxs font-sanspro"></div>
           <project
             project_name="J2C - Jumpstart to College"
             project_description="A college date and deadline organizer."
           ></project>
-          <div class="flex w-full h-0.2 text-white bg-gray-400 text-center font-sanspro"></div>
+          <div class="flex w-full text-center text-white bg-gray-400 h-xxs font-sanspro"></div>
           <project
             project_name="RUHBL"
             project_description="The Redding United History Bowl League Website."
