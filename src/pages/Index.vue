@@ -22,8 +22,9 @@
     <div id="about">
       <div class="flex justify-center w-full h-screen bg-background_gray">
         <div
-          class="self-center w-2/3 p-12 text-2xl text-center bg-white md:p-24 md:text-4xl h-half font-sanspro">
-          <p>I am a student at the University of California, Berkeley where I am studying Computer Science (BA)</p>
+          class="self-center w-2/3 p-12 text-2xl text-center bg-white md:p-24 md:text-4xl h-half font-sanspro"
+        >
+          <p>I am a student at the University of California, Berkeley where I am studying computer science (BA)</p>
         </div>
       </div>
     </div>
@@ -38,11 +39,11 @@
           <div class="w-2/6 bg-black"></div>
           <div class="w-1/6 bg-black"></div>
           <div class="w-1/6 bg-black"></div>
-         <project
+          <project
             project_name="FlyRight: Space Adventure"
             project_description="A dangerous space adventure game."
           ></project>
-           <!-- 
+          <!-- 
           <div class="flex w-full text-center text-white bg-gray-400 h-xxs font-sanspro"></div>
           <project
             project_name="Maribel - MLA Formatter"
@@ -80,17 +81,24 @@ import TechnologyTag from "~/components/TechnologyTag.vue";
 import Project from "~/components/Project.vue";
 import NavigationBar from "~/components/NavigationBar.vue";
 import Divider from "~/components/Divider.vue";
+import json from '~/data/projects.json'
 
 export default {
   components: {
     TechnologyTag,
     Project,
     NavigationBar,
-    Divider
+    Divider,
+    json
   },
   metaInfo: {
     title: "Jacob Patel"
-  }
+  },
+  data() {
+    return  {
+       myJson: json
+      }
+    }
 };
 </script>
 
