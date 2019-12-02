@@ -23,7 +23,7 @@
         <div
           class="flex self-center w-2/3 p-24 text-4xl font-normal text-center bg-white h-half font-sanspro"
         >
-          <p>I am a student at the University of California, Berkeley where I am studying Computer Science (B.A.)</p>
+          <p>I am a student at the University of California, Berkeley where I am studying Computer Science (BA)</p>
         </div>
       </div>
     </div>
