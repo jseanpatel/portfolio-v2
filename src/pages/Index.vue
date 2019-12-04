@@ -34,15 +34,11 @@
     <div id="projects">
       <div class="flex w-full h-auto bg-background_gray">
         <div class="flex-row w-full h-auto">
-          <div class="w-1/6 bg-black"></div>
-          <div class="w-1/6 bg-black"></div>
-          <div class="w-2/6 bg-black"></div>
-          <div class="w-1/6 bg-black"></div>
-          <div class="w-1/6 bg-black"></div>
-          <project
-            project_name="FlyRight: Space Adventure"
-            project_description="A dangerous space adventure game."
-          ></project>
+        </div "v-for-object"> 
+        <li v-for="value in myJson">
+    {{ value }}
+  </li>
+      </div>
           <!-- 
           <div class="flex w-full text-center text-white bg-gray-400 h-xxs font-sanspro"></div>
           <project
@@ -81,7 +77,7 @@ import TechnologyTag from "~/components/TechnologyTag.vue";
 import Project from "~/components/Project.vue";
 import NavigationBar from "~/components/NavigationBar.vue";
 import Divider from "~/components/Divider.vue";
-import json from '~/data/projects.json'
+import ProjectData from "~/data/projects.json";
 
 export default {
   components: {
@@ -89,16 +85,18 @@ export default {
     Project,
     NavigationBar,
     Divider,
-    json
+    ProjectData
   },
   metaInfo: {
     title: "Jacob Patel"
   },
-  data() {
-    return  {
-       myJson: json
-      }
+  computed: {
+    data() {
+      return {
+        yJson: ProjectData
+      };
     }
+  }
 };
 </script>
 
