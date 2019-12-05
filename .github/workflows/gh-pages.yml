@@ -4,6 +4,8 @@ on:
   push:
     branches:
     - master
+        
+PUBLISH_BRANCH: gh-pages  # deploying branch
 
 jobs:
   build-deploy:
