@@ -23,7 +23,7 @@
         <div
           class="flex self-center w-2/3 p-24 text-4xl font-normal text-center bg-white h-half font-sanspro"
         >
-          <p>I am a student at the University of California, Berkeley where I am studying Computer Science (BA)</p>
+          <p>I am a student at the University of California, Berkeley where I am studying computer science (BA)</p>
         </div>
       </div>
     </div>
@@ -64,10 +64,27 @@
       <divider title="get in touch"></divider>
     </div>
     <div id="footer" class="flex-row w-full h-screen font-sanspro">
-      <div class="flex-1 bg-footer_gray h-half"></div>
+      <div class="flex-1 bg-footer_gray h-half">
+        <div class="flex">
+          <div class="flex w-1/6"></div>
+          <div class="flex w-1/6"></div>
+          <div class="flex justify-start w-1/6 pt-12 text-2xl font-bold text-white">
+            <div class="flex w-1/2"> Hello </div>
+            <div class="flex w-1/2"> Hello </div>
+          </div>
+          <div class="flex w-1/6"></div>
+          <div class="flex w-1/6"></div>
+        </div>
+      </div>
       <div class="flex-1 h-half bg-footer_black">
-        <div class="flex justify-center">
-          <p class="pt-12 text-2xl font-bold text-white">Contacts and Socials:</p>
+        <div class="flex">
+          <div class="flex w-1/6"></div>
+          <div class="flex w-1/6"></div>
+          <div
+            class="flex justify-start w-2/6 pt-12 text-2xl font-bold text-white"
+          >Contacts and Socials:</div>
+          <div class="flex w-1/6"></div>
+          <div class="flex w-1/6"></div>
         </div>
       </div>
     </div>
@@ -92,9 +109,3 @@ export default {
   }
 };
 </script>
-
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
