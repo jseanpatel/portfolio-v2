@@ -33,13 +33,9 @@
     </div>
     <div id="projects">
       <div class="flex w-full h-auto bg-background_gray">
-        <div class="flex-row w-full h-auto">
-        </div "v-for-object"> 
-        <li v-for="value in myJson">
-    {{ value }}
-  </li>
+        <div class="flex-row w-full h-auto"></div>
       </div>
-          <!-- 
+      <!-- 
           <div class="flex w-full text-center text-white bg-gray-400 h-xxs font-sanspro"></div>
           <project
             project_name="Maribel - MLA Formatter"
@@ -54,9 +50,7 @@
           <project
             project_name="RUHBL"
             project_description="The Redding United History Bowl League Website."
-          ></project>-->
-        </div>
-      </div>
+      ></project>-->
     </div>
     <div id="divider" class="justify-center allign-middle">
       <divider title="get in touch"></divider>
@@ -65,12 +59,17 @@
       <div class="flex-1 bg-footer_gray h-half">
         <div class="flex">
           <div class="flex w-1/6"></div>
-          <div class="flex w-1/6"></div>
-          <div class="flex justify-start w-1/6 pt-12 text-2xl font-bold text-white">
-            <div class="flex w-1/2"> Hello </div>
-            <div class="flex w-1/2"> Hello </div>
+          
+          <div class="flex justify-end w-2/6 ">
+      
+            <div class="flex-row">
+            <p class="pt-12 text-2xl font-bold text-white">What am I currently working on?</p>
+            <p class="justify-end text-xl font-normal text-white"> Right now I am working o</p>
+            </div>
+           
           </div>
-          <div class="flex w-1/6"></div>
+          <div class="flex justify-start w-2/6 pt-12 text-2xl font-bold text-white">
+          <div class="flex pl-4 ml-10">Where am I heading next?</div></div>
           <div class="flex w-1/6"></div>
         </div>
       </div>
@@ -78,9 +77,10 @@
         <div class="flex">
           <div class="flex w-1/6"></div>
           <div class="flex w-1/6"></div>
-          <div
-            class="flex justify-start w-2/6 pt-12 text-2xl font-bold text-white"
-          >Contacts and Socials:</div>
+          <div class="flex justify-start w-2/6 pt-12 text-2xl font-bold text-white">
+            <div class="flex w-half">Hello</div>
+            <div class="flex w-half">Hello</div>
+          </div>
           <div class="flex w-1/6"></div>
           <div class="flex w-1/6"></div>
         </div>
