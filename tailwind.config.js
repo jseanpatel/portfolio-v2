@@ -10,7 +10,10 @@ module.exports = {
       },
       height: {
         half: '50%',
-        0.2: '0.05rem'
+        xxs: '0.05rem'
+      },
+      borderWidth: {
+        xxs: '0.05rem',
       },
       backgroundColor: {
         divider_gray: '#959595',

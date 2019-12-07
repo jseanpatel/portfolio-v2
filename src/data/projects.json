@@ -4,41 +4,41 @@
             "project_image": "imageurl",
             "project_name": "FlyRight - Space Adventure",
             "project_description": "A dangerous space adventure game",
-            "tags": {
-                "tag_1": "Swift",
-                "tag_2": "iOS",
-                "tag_3": "Xcode"
-            }
+            "tags": [
+                "tag_1",
+                "tag_2",
+                "tag_3"
+            ]
         },
         "maribel": {
             "project_image": "imageurl",
             "project_name": "Maribel - MLA Formatter",
             "project_description": "An all-in-one tool for writing papers",
-            "tags": {
-                "tag_1": "Bulma",
-                "tag_2": "Web",
-                "tag_3": "PDFKit"
-            }
+            "tags": [
+                "tag_1",
+                "tag_2",
+                "tag_3"
+            ]
         },
         "j2c": {
             "project_image": "imageurl",
             "project_name": "J2C - Jumpstart to College",
             "project_description": "A college date and deadline manager",
-            "tags": {
-                "tag_1": "Bulma",
-                "tag_2": "Web",
-                "tag_3": "G-Cals"
-            }
+            "tags": [
+                "tag_1",
+                "tag_2",
+                "tag_3"
+            ]
         },
         "ruhbl": {
             "project_image": "imageurl",
             "project_name": "RUHBL",
             "project_description": "The Redding United History Bowl League website",
-            "tags": {
-                "tag_1": "Bulma",
-                "tag_2": "Web",
-                "tag_3": "NHBB"
-            }
-        },
+            "tags": [
+                "tag_1",
+                "tag_2",
+                "tag_3"
+            ]
+        }
     }
 }
