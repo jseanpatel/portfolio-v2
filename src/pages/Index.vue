@@ -22,7 +22,7 @@
     <div id="about">
       <div class="flex justify-center w-full h-screen bg-background_gray">
         <div
-          class="self-center w-2/3 p-12 text-2xl text-center bg-white md:p-24 md:text-4xl h-half font-sanspro"
+          class="self-center w-2/3 p-12 text-3xl text-center bg-white md:p-24 md:text-4xl h-half font-sanspro"
         >
           <p>I am a student at the University of California, Berkeley where I am studying computer science (BA)</p>
         </div>
@@ -33,24 +33,12 @@
     </div>
     <div id="projects">
       <div class="flex w-full h-auto bg-background_gray">
-        <div class="flex-row w-full h-auto"></div>
+        <div class="flex-row w-full h-auto">
+          <div v-for="project in myJson" v-bind:key="project"> {{ project }}
+          <project> </project>
+           </div>
+        </div>
       </div>
-      <!-- 
-          <div class="flex w-full text-center text-white bg-gray-400 h-xxs font-sanspro"></div>
-          <project
-            project_name="Maribel - MLA Formatter"
-            project_description="An all in one tool for formatting papers."
-          ></project>
-          <div class="flex w-full text-center text-white bg-gray-400 h-xxs font-sanspro"></div>
-          <project
-            project_name="J2C - Jumpstart to College"
-            project_description="A college date and deadline organizer."
-          ></project>
-          <div class="flex w-full text-center text-white bg-gray-400 h-xxs font-sanspro"></div>
-          <project
-            project_name="RUHBL"
-            project_description="The Redding United History Bowl League Website."
-      ></project>-->
     </div>
     <div id="divider" class="justify-center allign-middle">
       <divider title="get in touch"></divider>
@@ -59,17 +47,16 @@
       <div class="flex-1 bg-footer_gray h-half">
         <div class="flex">
           <div class="flex w-1/6"></div>
-          
-          <div class="flex justify-end w-2/6 ">
-      
+
+          <div class="flex justify-end w-2/6">
             <div class="flex-row">
-            <p class="pt-12 text-2xl font-bold text-white">What am I currently working on?</p>
-            <p class="justify-end text-xl font-normal text-white"> Right now I am working o</p>
+              <p class="pt-12 text-2xl font-bold text-white">What am I currently working on?</p>
+              <p class="justify-end text-xl font-normal text-white">Right now I am working o</p>
             </div>
-           
           </div>
           <div class="flex justify-start w-2/6 pt-12 text-2xl font-bold text-white">
-          <div class="flex pl-4 ml-10">Where am I heading next?</div></div>
+            <div class="flex pl-4 ml-10">Where am I heading next?</div>
+          </div>
           <div class="flex w-1/6"></div>
         </div>
       </div>
@@ -94,7 +81,7 @@ import TechnologyTag from "~/components/TechnologyTag.vue";
 import Project from "~/components/Project.vue";
 import NavigationBar from "~/components/NavigationBar.vue";
 import Divider from "~/components/Divider.vue";
-import ProjectData from "~/data/projects.json";
+import projects from "~/data/projects.json";
 
 export default {
   components: {
@@ -102,7 +89,7 @@ export default {
     Project,
     NavigationBar,
     Divider,
-    ProjectData
+    projects
   },
   metaInfo: {
     title: "Jacob Patel"
@@ -110,7 +97,7 @@ export default {
   computed: {
     data() {
       return {
-        yJson: ProjectData
+        projects: projects,
       };
     }
   }
