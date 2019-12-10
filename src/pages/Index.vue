@@ -16,7 +16,7 @@
       <div class="flex-initial w-1/6 bg-red-600"></div>
       <div class></div>
     </div>
-    <div id="divider" class="justify-center allign-middle">
+    <div id="divider" class="justify-center align-middle">
       <divider title="a little bit about me"></divider>
     </div>
     <div id="about">
@@ -28,20 +28,22 @@
         </div>
       </div>
     </div>
-    <div id="divider" class="justify-center allign-middle">
+    <div id="divider" class="justify-center align-middle">
       <divider title="a collection of my projects"></divider>
     </div>
     <div id="projects">
       <div class="flex w-full h-auto bg-background_gray">
         <div class="flex-row w-full h-auto">
-          <div v-for="project in projects" v-bind:key="project"> 
-          <project> dfdf </project>
-          adfjalsjfljs
-           </div>
+          <div v-for="project in projects.projects" v-bind:key="project.project_name">
+            <project
+              :project_name="project.project_name"
+              :project_description="project.project_description"
+            ></project>
+          </div>
         </div>
       </div>
     </div>
-    <div id="divider" class="justify-center allign-middle">
+    <div id="divider" class="justify-center align-middle">
       <divider title="get in touch"></divider>
     </div>
     <div id="footer" class="flex-row w-full h-screen font-sanspro">
@@ -89,18 +91,16 @@ export default {
     TechnologyTag,
     Project,
     NavigationBar,
-    Divider,
-    projects
+    Divider
   },
   metaInfo: {
     title: "Jacob Patel"
   },
-  computed: {
-    data() {
-      return {
-        projects: projects,
-      };
-    },
+
+  data() {
+    return {
+      projects: projects
+    };
   }
 };
 </script>
