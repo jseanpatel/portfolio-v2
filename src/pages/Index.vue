@@ -39,6 +39,7 @@
               :project_name="project.project_name"
               :project_description="project.project_description"
             ></project>
+             <hr class="justify-center invisible border-gray-300 border-solid rounded-lg md:visible">
           </div>
         </div>
       </div>
