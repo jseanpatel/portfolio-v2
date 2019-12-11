@@ -11,8 +11,8 @@
     </div>
     <div class="flex justify-center font-sanspro">
       <div class="flex-row text-center">
-        <p class="text-3xl font-bold">{{project_name}}</p>
-        <p class="text-xl">{{project_description}}</p>
+        <p class="text-3xl font-bold">{{name}}</p>
+        <p class="text-xl">{{description}}</p>
       </div>
     </div>
   </div>
@@ -21,7 +21,7 @@
 <script>
 export default {
   name: "Project",
-  props: ["project_name", "project_description"],
+  props: ["name", "description"],
   data() {
     return {
       message: "Try change me!"

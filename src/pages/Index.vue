@@ -34,10 +34,10 @@
     <div id="projects">
       <div class="flex w-full h-auto bg-background_gray">
         <div class="flex-row w-full h-auto">
-          <div v-for="project in projects.projects" v-bind:key="project.project_name">
+          <div v-for="project in projects.projects" v-bind:key="project.name">
             <project
-              :project_name="project.project_name"
-              :project_description="project.project_description"
+              :name="project.name"
+              :description="project.description"
             ></project>
              <hr class="justify-center invisible border-gray-300 border-solid rounded-lg md:visible">
           </div>
