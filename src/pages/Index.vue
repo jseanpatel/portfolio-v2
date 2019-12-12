@@ -55,7 +55,7 @@
           <div class="flex justify-end w-2/6">
             <div class="flex-row">
               <p class="pt-12 text-2xl font-bold text-white">What am I currently working on?</p>
-              <p class="justify-end text-xl font-normal text-white">Right now I am working o</p>
+              <p class="justify-end text-xl font-normal text-white">Right now I am working on completing this here Portfolio.</p>
             </div>
           </div>
           <div class="flex justify-start w-2/6 pt-12 text-2xl font-bold text-white">

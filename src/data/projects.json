@@ -5,9 +5,9 @@
             "name": "FlyRight - Space Adventure",
             "description": "A dangerous space adventure game",
             "tags": [
-                "tag_1",
-                "tag_2",
-                "tag_3"
+                "iOS",
+                "Swift",
+                "Xcode"
             ]
         },
         "maribel": {
@@ -15,9 +15,9 @@
             "name": "Maribel - MLA Formatter",
             "description": "An all-in-one tool for writing papers",
             "tags": [
-                "tag_1",
-                "tag_2",
-                "tag_3"
+                "Web",
+                "PDFKit",
+                "Bulma"
             ]
         },
         "j2c": {
@@ -25,9 +25,9 @@
             "name": "J2C - Jumpstart to College",
             "description": "A college date and deadline manager",
             "tags": [
-                "tag_1",
-                "tag_2",
-                "tag_3"
+                "Web",
+                "G-Cal",
+                "Bulma"
             ]
         },
         "ruhbl": {
@@ -35,9 +35,9 @@
             "name": "RUHBL",
             "description": "The Redding United History Bowl League website",
             "tags": [
-                "tag_1",
-                "tag_2",
-                "tag_3"
+                "Web",
+                "Fontawesome",
+                "Bulma"
             ]
         }
     }
