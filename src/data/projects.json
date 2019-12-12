@@ -2,7 +2,7 @@
     "projects": {
         "flyright": {
             "image": "imageurl",
-            "name": "FlyRight - Space Adventure",
+            "name": "FlyRight: Space Adventure",
             "description": "A dangerous space adventure game",
             "tags": [
                 "iOS",
@@ -15,7 +15,7 @@
             "name": "Maribel - MLA Formatter",
             "description": "An all-in-one tool for writing papers",
             "tags": [
-                "Web",
+                "JavaScript",
                 "PDFKit",
                 "Bulma"
             ]
@@ -25,17 +25,17 @@
             "name": "J2C - Jumpstart to College",
             "description": "A college date and deadline manager",
             "tags": [
-                "Web",
-                "G-Cal",
+                "JavaScript",
+                "G-Cal API",
                 "Bulma"
             ]
         },
         "ruhbl": {
             "image": "imageurl",
-            "name": "RUHBL",
+            "name": "RUHBL - Home",
             "description": "The Redding United History Bowl League website",
             "tags": [
-                "Web",
+                "JavaScript",
                 "Fontawesome",
                 "Bulma"
             ]
