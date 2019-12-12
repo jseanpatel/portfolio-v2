@@ -30,7 +30,7 @@ export default {
     TechnologyTag
   },
   name: "Project",
-  props: ["name", "description", "tags"],
+  props: ["name", "description"],
   data() {
     return {
       message: "Try change me!",
