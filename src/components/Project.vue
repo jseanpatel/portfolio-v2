@@ -12,6 +12,7 @@
       <div class="flex-row w-1/3 text-center">
         <p class="text-2xl font-bold lg:text-3xl">{{name}}</p>
         <p class="invisible text-xl lg:visible">{{description}}</p>
+        
       </div>
       <div class="flex flex-row justify-center w-1/3 text-center lg:flex-col">
         <div v-for="tag in tags">
@@ -30,7 +31,7 @@ export default {
     TechnologyTag
   },
   name: "Project",
-  props: ["name", "description"],
+  props: ["name", "description", "tags"],
   data() {
     return {
       message: "Try change me!",
