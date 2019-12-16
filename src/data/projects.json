@@ -1,7 +1,7 @@
 {
     "projects": {
         "flyright": {
-            "image": "imageurl",
+            "image": "assets/maribellogo.png",
             "name": "FlyRight: Space Adventure",
             "description": "A dangerous space adventure game",
             "tags": [
