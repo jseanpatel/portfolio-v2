@@ -35,12 +35,8 @@
       <div class="flex w-full h-auto bg-background_gray">
         <div class="flex-row w-full h-auto">
           <div v-for="project in projects.projects" v-bind:key="project.name">
-            <project
-              :name="project.name"
-              :description="project.description"
-              :tags="project.tags"
-            ></project>
-             <hr class="justify-center invisible border-gray-300 border-solid rounded-lg md:visible">
+            <project :name="project.name" :description="project.description" :tags="project.tags"></project>
+            <hr class="justify-center invisible border-gray-300 border-solid rounded-lg md:visible" />
           </div>
         </div>
       </div>
@@ -56,7 +52,9 @@
           <div class="flex justify-end w-2/6">
             <div class="flex-row">
               <p class="pt-12 text-2xl font-bold text-white">What am I currently working on?</p>
-              <p class="justify-end text-xl font-normal text-white">Right now I am working on completing this here Portfolio.</p>
+              <p
+                class="justify-end text-xl font-normal text-white"
+              >Right now I am working on completing this here Portfolio.</p>
             </div>
           </div>
           <div class="flex justify-start w-2/6 pt-12 text-2xl font-bold text-white">
