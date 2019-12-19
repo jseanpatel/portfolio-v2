@@ -22,8 +22,8 @@
     <div id="about">
       <div class="flex justify-center w-full h-screen bg-background_gray">
         <div
-          class="self-center w-2/3 p-12 text-3xl text-center bg-white rounded-lg md:p-24 md:text-4xl h-half font-sanspro"
-        >
+
+          class="self-center w-2/3 p-12 text-3xl text-center bg-white rounded-lg md:p-24 md:text-4xl h-half font-sanspro">
           <p>I am a student at the University of California, Berkeley where I am studying computer science (BA)</p>
         </div>
       </div>
@@ -96,7 +96,6 @@ export default {
   metaInfo: {
     title: "Jacob Patel"
   },
-
   data() {
     return {
       projects: projects

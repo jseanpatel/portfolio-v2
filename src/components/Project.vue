@@ -1,7 +1,9 @@
 <template>
   <div class="flex-initial w-full h-56 bg-gray-100">
     <div class="flex justify-center w-full h-half">
-      <div class="flex content-start self-center justify-center w-1/6"></div>
+      <div class="flex content-start self-center justify-center w-1/6">
+        <!-- <hr class="justify-center invisible w-24 border-gray-500 border-solid rounded-lg md:visible"> -->
+      </div>
       <div class="flex self-center w-4/6 bg-divder_gray">
         <!-- Image will be here. -->
       </div>
