@@ -9,22 +9,34 @@
       </div>
       <div class="flex content-start w-1/6"></div>
     </div>
-    <div class="flex justify-center font-sanspro">
-      <div class="flex-row text-center">
-        <p class="text-3xl font-bold">{{project_name}}</p>
-        <p class="text-xl">{{project_description}}</p>
+    <div class="flex font-sanspro">
+      <div class="flex-row w-1/3 text-center"></div>
+      <div class="flex-row w-1/3 text-center">
+        <p class="text-2xl font-bold lg:text-3xl">{{name}}</p>
+        <p class="invisible text-xl lg:visible">{{description}}</p>
+      </div>
+      <div class="flex flex-row justify-center w-1/3 text-center lg:flex-col">
+        <div v-for="tag in tags">
+          <technology-tag :title="tag"></technology-tag>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import TechnologyTag from "~/components/TechnologyTag.vue";
+
 export default {
+  components: {
+    TechnologyTag
+  },
   name: "Project",
-  props: ["project_name", "project_description"],
+  props: ["name", "description", "tags"],
   data() {
     return {
-      message: "Try change me!"
+      message: "Try change me!",
+      projects: projects
     };
   },
   methods: {}

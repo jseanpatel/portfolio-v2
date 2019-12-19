@@ -1,43 +1,43 @@
 {
     "projects": {
         "flyright": {
-            "project_image": "imageurl",
-            "project_name": "FlyRight - Space Adventure",
-            "project_description": "A dangerous space adventure game",
+            "image": "assets/maribellogo.png",
+            "name": "FlyRight: Space Adventure",
+            "description": "A dangerous space adventure game",
             "tags": [
-                "tag_1",
-                "tag_2",
-                "tag_3"
+                "iOS",
+                "Swift",
+                "Xcode"
             ]
         },
         "maribel": {
-            "project_image": "imageurl",
-            "project_name": "Maribel - MLA Formatter",
-            "project_description": "An all-in-one tool for writing papers",
+            "image": "imageurl",
+            "name": "Maribel - MLA Formatter",
+            "description": "An all-in-one tool for writing papers",
             "tags": [
-                "tag_1",
-                "tag_2",
-                "tag_3"
+                "JavaScript",
+                "PDFKit",
+                "Bulma"
             ]
         },
         "j2c": {
-            "project_image": "imageurl",
-            "project_name": "J2C - Jumpstart to College",
-            "project_description": "A college date and deadline manager",
+            "image": "imageurl",
+            "name": "J2C - Jumpstart to College",
+            "description": "A college date and deadline manager",
             "tags": [
-                "tag_1",
-                "tag_2",
-                "tag_3"
+                "JavaScript",
+                "G-Cal API",
+                "Bulma"
             ]
         },
         "ruhbl": {
-            "project_image": "imageurl",
-            "project_name": "RUHBL",
-            "project_description": "The Redding United History Bowl League website",
+            "image": "imageurl",
+            "name": "RUHBL",
+            "description": "The Redding United History Bowl League website",
             "tags": [
-                "tag_1",
-                "tag_2",
-                "tag_3"
+                "JavaScript",
+                "Fontawesome",
+                "Bulma"
             ]
         }
     }

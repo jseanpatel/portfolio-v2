@@ -1,6 +1,8 @@
 <template>
   <div class="flex justify-center">
-    <div class="flex flex-col ml-16 text-xl text-center text-white lg:ml-0 md:text-2xl font-sanspro">
+    <div
+      class="flex flex-col ml-16 text-xl text-center text-white lg:ml-0 md:text-2xl font-sanspro"
+    >
       <a href="#" class="font-bold hover:underline">about</a>
       <a href="#" class="font-bold hover:underline">projects</a>
       <a href="#" class="font-light hover:underline">flyright</a>

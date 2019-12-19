@@ -16,31 +16,32 @@
       <div class="flex-initial w-1/6 bg-red-600"></div>
       <div class></div>
     </div>
-    <div id="divider" class="justify-center allign-middle">
+    <div id="divider" class="justify-center align-middle">
       <divider title="a little bit about me"></divider>
     </div>
     <div id="about">
       <div class="flex justify-center w-full h-screen bg-background_gray">
         <div
-          class="self-center w-2/3 p-12 text-3xl text-center bg-white md:p-24 md:text-4xl h-half font-sanspro"
-        >
+
+          class="self-center w-2/3 p-12 text-3xl text-center bg-white rounded-lg md:p-24 md:text-4xl h-half font-sanspro">
           <p>I am a student at the University of California, Berkeley where I am studying computer science (BA)</p>
         </div>
       </div>
     </div>
-    <div id="divider" class="justify-center allign-middle">
+    <div id="divider" class="justify-center align-middle">
       <divider title="a collection of my projects"></divider>
     </div>
     <div id="projects">
       <div class="flex w-full h-auto bg-background_gray">
         <div class="flex-row w-full h-auto">
-          <div v-for="project in myJson" v-bind:key="project"> {{ project }}
-          <project> </project>
-           </div>
+          <div v-for="project in projects.projects" v-bind:key="project.name">
+            <project :name="project.name" :description="project.description" :tags="project.tags"></project>
+            <hr class="justify-center invisible border-gray-300 border-solid rounded-lg md:visible" />
+          </div>
         </div>
       </div>
     </div>
-    <div id="divider" class="justify-center allign-middle">
+    <div id="divider" class="justify-center align-middle">
       <divider title="get in touch"></divider>
     </div>
     <div id="footer" class="flex-row w-full h-screen font-sanspro">
@@ -51,7 +52,9 @@
           <div class="flex justify-end w-2/6">
             <div class="flex-row">
               <p class="pt-12 text-2xl font-bold text-white">What am I currently working on?</p>
-              <p class="justify-end text-xl font-normal text-white">Right now I am working o</p>
+              <p
+                class="justify-end text-xl font-normal text-white"
+              >Right now I am working on completing this here Portfolio.</p>
             </div>
           </div>
           <div class="flex justify-start w-2/6 pt-12 text-2xl font-bold text-white">
@@ -88,18 +91,15 @@ export default {
     TechnologyTag,
     Project,
     NavigationBar,
-    Divider,
-    projects
+    Divider
   },
   metaInfo: {
     title: "Jacob Patel"
   },
-  computed: {
-    data() {
-      return {
-        projects: projects,
-      };
-    }
+  data() {
+    return {
+      projects: projects
+    };
   }
 };
 </script>
