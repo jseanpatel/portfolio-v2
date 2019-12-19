@@ -35,8 +35,7 @@ export default {
   props: ["name", "description", "tags"],
   data() {
     return {
-      message: "Try change me!",
-      projects: projects
+      message: "Try change me!"
     };
   },
   methods: {}
