@@ -1,40 +1,28 @@
-name: github pages
+name: Build & Deploy
 
 on:
-  push:
-    branches:
-    - master
-      - 
-PUBLISH_BRANCH: master  # deploying branch
+  push:	
+    branches:	
+      - master
 
 jobs:
-  build-deploy:
-    runs-on: ubuntu-18.04
+  build:
+    runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v1
+      - name: Checkout
+        uses: actions/checkout@v1
 
-    - name: Setup Node
-      uses: actions/setup-node@v1
-      with:
-        node-version: '10.x'
+      - name: Installing packages
+        run: npm install
 
-    - name: Cache dependencies
-      uses: actions/cache@v1
-      with:
-        path: ~/.npm
-        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
+      - name: Build Gridsome site
+        run: yarn build
 
-    - run: npm ci
-
-    - run: npm test
-
-    - run: npm run generate
-
-    - name: deploy
-      uses: peaceiris/actions-gh-pages@v2.5.0
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./dist
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_BRANCH: master
+          BRANCH: gh-pages
+          FOLDER: dist
