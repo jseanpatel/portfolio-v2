@@ -16,10 +16,10 @@ module.exports = {
         xxs: '0.05rem',
       },
       backgroundColor: {
-        divider_gray: '#959595',
-        background_gray: '#EAEAEA',
-        footer_gray: '#525252',
-        footer_black: '#333333'
+        dividerGray: '#959595',
+        backgroundGray: '#EAEAEA',
+        footerGray: '#525252',
+        footerBlack: '#333333'
 
       }
 
