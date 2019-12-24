@@ -19,7 +19,8 @@ module.exports = {
         dividerGray: '#959595',
         backgroundGray: '#EAEAEA',
         footerGray: '#525252',
-        footerBlack: '#333333'
+        footerBlack: '#333333',
+        hiddenGray: "#484848"
 
       }
 
