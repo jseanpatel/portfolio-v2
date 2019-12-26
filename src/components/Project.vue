@@ -12,10 +12,15 @@
     <div class="flex font-sanspro">
       <div class="flex-row w-1/3 text-center"></div>
       <div class="flex-row w-1/3 text-center">
-        <p class="text-2xl font-bold lg:text-3xl">{{name}}</p>
-        <p class="invisible text-xl lg:visible">{{description}}</p>
+        <p class="w-full text-xl font-bold lg:text-3xl">{{name}}</p>
+        <p class="invisible hidden text-xl lg:visible">{{description}}</p>
+         <div class="flex flex-row justify-center text-center lg:flex-col">
+        <div v-for="tag in tags">
+          <technology-tag :title="tag"></technology-tag>
+        </div>
       </div>
-      <div class="flex flex-row justify-center w-1/3 text-center lg:flex-col">
+      </div>
+      <div class="flex flex-row justify-center hidden w-1/3 text-center lg:flex-col">
         <div v-for="tag in tags">
           <technology-tag :title="tag"></technology-tag>
         </div>

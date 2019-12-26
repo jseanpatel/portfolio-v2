@@ -30,7 +30,7 @@
     </div>
     <divider class="justify-center align-middle" title="a collection of my projects"></divider>
     <div id="projects">
-      <div class="flex hidden w-full h-auto bg-backgroundGray">
+      <div class="flex w-full h-auto bg-backgroundGray">
         <div class="flex-row w-full h-auto">
           <div v-for="project in projects.projects" v-bind:key="project.name">
             <project :name="project.name" :description="project.description" :tags="project.tags"></project>
@@ -75,7 +75,7 @@
               class="flex font-semibold text-white lg:w-1/3 text-md"
             >Find me on social media:</div>
             <div
-              class="flex items-center justify-between w-1/3 mt-4 text-sm font-normal text-white underline lg:-ml-4 md:justify-around md:mt-0"
+              class="flex items-center justify-between mt-4 text-sm font-normal text-white underline md:w-1/3 lg:-ml-4 md:justify-around md:mt-0"
             >
               <a href="https://github.com/jseanpatel">
                 <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'github']" />
@@ -94,7 +94,7 @@
           <div class="flex flex-col mt-3 md:flex-row">
             <div class="flex font-semibold text-white lg:w-1/3 text-md">Send me a message:</div>
             <div
-              class="flex w-1/3 mt-4 font-normal text-white underline md:mt-0 text-md"
+              class="flex w-1/3 mt-4 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md"
             >jseanpatel@berkeley.edu</div>
           </div>
           <div class="flex flex-col mt-3 md:flex-row">
@@ -102,7 +102,7 @@
               class="flex justify-start font-semibold text-white lg:w-1/3 text-md"
             >Checkout out my resume:</div>
             <div
-              class="flex mt-4 font-normal text-white underline md:mt-0 text-md"
+              class="flex mt-4 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md"
             >Jacob's Resume</div>
           </div>
 
