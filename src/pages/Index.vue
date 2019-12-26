@@ -6,7 +6,7 @@
       </div>
       <div class="self-center flex-initial w-4/6 bg-red-600">
         <div
-          class="flex justify-center h-auto text-4xl text-center text-white md:text-left font-sanspro"
+          class="flex justify-center h-auto text-2xl text-center text-white md:text-3xl lg:text-4xl md:text-left font-sanspro"
         >
           <p>
             <span class="pr-1 font-semibold">Hi.</span>
@@ -57,56 +57,73 @@
           <div class="pl-4 -ml-4">Where am I heading next?</div>
           <p
             class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >Right now, I am running through the application process for 2020 summer internships.</p>
+          >Thai Basil in Berkeley. Check it out. It's really something special.</p>
         </div>
+        <div class="w-1/6"></div>
       </div>
       <div class="flex justify-center h-auto bg-footerBlack">
-        <div class="flex flex-row justify-center hidden w-2/6 md:flex">
+        <div class="w-1/6"> </div>
+        <div class="flex flex-row hidden w-1/6 md:flex">
           <div class="mt-20 text-xl font-bold text-white lg:text-2xl">Jacob Patel</div>
         </div>
-        <div class="w-4/6">
-          <div
-            class="w-4/6 mt-20 text-xl font-extrabold text-white lg:text-2xl"
-          >I work to bridge financial barriers and expand education to all; let's build something together.</div>
+        <div class="w-3/6">
+          <p
+            class="mt-20 text-xl font-extrabold text-white lg:text-2xl"
+          >I work to bridge financial barriers and expand education to all; let's build something together.</p>
           <div class="flex flex-col mt-16 md:flex-row">
             <div
-              class="flex w-full font-semibold text-white md:w-1/4 text-md"
+              class="flex font-semibold text-white lg:w-1/3 text-md"
             >Find me on social media:</div>
             <div
-              class="flex items-center justify-between mt-4 text-sm font-normal text-white underline md:pl-4 lg:pl-0 md:w-1/5 md:mt-0"
+              class="flex items-center justify-between w-1/3 mt-4 text-sm font-normal text-white underline lg:-ml-4 md:justify-around md:mt-0"
             >
-              <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'github']" />
-              <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'twitter']" />
-              <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'linkedin']" />
-              <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'facebook']" />
+              <a href="https://github.com/jseanpatel">
+                <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'github']" />
+              </a>
+              <a href="https://twitter.com/">
+                <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'twitter']" />
+              </a>
+              <a href="https://www.linkedin.com/in/jseanpatel/">
+                <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'linkedin']" />
+              </a>
+              <a href="https://ko-fi.com/jseanpatel">
+                <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fas', 'coffee']" />
+              </a>
             </div>
           </div>
-          <div class="flex flex-col mt-4 md:flex-row">
+          <div class="flex flex-col mt-3 md:flex-row">
+            <div class="flex font-semibold text-white lg:w-1/3 text-md">Send me a message:</div>
             <div
-              class="flex font-semibold text-white md:w-1/4 text-md"
-            >Send me a message:</div>
-            <div
-              class="flex mt-4 font-normal text-white underline md:mt-0 sm:w-1/4 text-md"
+              class="flex w-1/3 mt-4 font-normal text-white underline md:mt-0 text-md"
             >jseanpatel@berkeley.edu</div>
           </div>
           <div class="flex flex-col mt-3 md:flex-row">
             <div
-              class="flex justify-start font-semibold text-white md:w-1/4 text-md"
+              class="flex justify-start font-semibold text-white lg:w-1/3 text-md"
             >Checkout out my resume:</div>
             <div
-              class="flex mt-4 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 sm:w-1/4 text-md"
-            >jacobpatelresume.pdf</div>
+              class="flex mt-4 font-normal text-white underline md:mt-0 text-md"
+            >Jacob's Resume</div>
           </div>
-          <div class="flex justify-start w-full text-md">
-            <div
-              class="flex pt-24 pb-2 font-normal text-white"
-            >This portfolio was made with Spotify and lots of love.</div>
-          </div>
-          <div class="flex pb-24 font-normal text-white text-md">
-            The source code is licensed MIT and is available on Github. 
-            <font-awesome class="ml-0 text-white md:ml-1 lg:ml-2 fa-lg md:fa-2x" :icon="['fab', 'github']" />
+
+          <div class="flex py-24 font-normal text-white text-md">
+            <span>
+            The source code of this website is licensed MIT and is available on Github.
+            <a
+              href="https://github.com/jseanpatel/Portfolio"
+            >
+              <font-awesome
+                class="ml-0 text-white md:ml-1 lg:ml-2 fa-lg md:fa-2x"
+                :icon="['fab', 'github']"
+              />
+            </a>
+            </span>
           </div>
         </div>
+      
+      
+      <div class="w-1/6">
+      </div>
       </div>
     </footer>
   </Layout>
