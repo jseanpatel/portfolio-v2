@@ -22,7 +22,7 @@
     <div id="about">
       <div class="flex justify-center w-full py-32 bg-backgroundGray">
         <div
-          class="self-center w-2/3 p-10 text-xs text-center bg-white rounded-lg lg:text-lg md:text-md md:p-16 sm:text-sm font-sanspro"
+          class="self-center w-2/3 p-10 text-sm text-center bg-white rounded-lg lg:text-xl md:text-md md:p-16 sm:text-sm font-sanspro"
         >
           <p>I am a student at the University of California, Berkeley studying computer science.</p>
         </div>
@@ -49,7 +49,7 @@
           >What am I currently working on?</p>
           <p
             class="pb-12 mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >I am currently working on expanding my personal portfolio.</p>
+          >I'm currently working on expanding my personal portfolio.</p>
         </div>
         <div
           class="flex flex-col w-2/6 max-w-sm pt-12 pl-0 text-lg font-bold text-white lg:ml-0 md:text-xl lg:text-2xl"
@@ -64,12 +64,12 @@
       <div class="flex justify-center h-auto bg-footerBlack">
         <div class="w-1/6"> </div>
         <div class="flex flex-row hidden w-1/6 md:flex">
-          <div class="mt-20 text-xl font-bold text-white lg:text-2xl">Jacob Patel</div>
+          <div class="mt-20 text-xl font-bold text-white lg:text-2xl"> <span class="p-4 bg-red-600 rounded-lg"> Jacob Patel</span></div>
         </div>
         <div class="w-3/6">
           <p
             class="mt-20 text-xl font-extrabold text-white lg:text-2xl"
-          >I work to bridge financial barriers and expand education to all; let's build something together.</p>
+          >I work to bridge financial barriers and expand education to all; <span class="text-red-600">let's build something together.</span></p>
           <div class="flex flex-col mt-16 md:flex-row">
             <div
               class="flex font-semibold text-white lg:w-1/3 text-md"
@@ -100,10 +100,11 @@
           <div class="flex flex-col mt-3 md:flex-row">
             <div
               class="flex justify-start font-semibold text-white lg:w-1/3 text-md"
-            >Checkout out my resume:</div>
+            >  Checkout out my resume: </div>
+            <a href="Resume.pdf">
             <div
               class="flex mt-4 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md"
-            >Jacob's Resume</div>
+            > resume</div></a>
           </div>
 
           <div class="flex py-24 font-normal text-white text-md">
