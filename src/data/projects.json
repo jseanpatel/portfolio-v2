@@ -32,7 +32,7 @@
         },
         "ruhbl": {
             "image": "imageurl",
-            "name": "RUHBL",
+            "name": "RUHBL - Home",
             "description": "The Redding United History Bowl League website",
             "tags": [
                 "JavaScript",

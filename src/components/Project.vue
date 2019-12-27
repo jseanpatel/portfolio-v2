@@ -14,7 +14,7 @@
       <div class="flex-row w-full text-center md:w-1/3">
         <p class="w-full text-2xl font-bold md:text-2xl lg:text-3xl">{{name}}</p>
         <p class="hidden text-md md:text-lg lg:text-xl md:block">{{description}}</p>
-         <div class="flex flex-row justify-around text-center md:hidden lg:flex-col">
+         <div class="flex flex-row justify-around mx-6 text-center lg:mx-0 md:hidden lg:flex-col">
         <div v-for="tag in tags">
           <technology-tag :title="tag"></technology-tag>
         </div>
