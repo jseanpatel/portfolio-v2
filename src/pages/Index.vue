@@ -103,8 +103,8 @@
             >  Checkout out my resume: </div>
             <a href="Resume.pdf">
             <div
-              class="flex mt-2 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md"
             > JacobPatelResume</div></a>
+
           </div>
 
           <div class="flex pt-40 pb-4 font-normal text-white text-md">
