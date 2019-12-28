@@ -40,7 +40,7 @@
       </div>
     </div>
     <divider class="justify-center align-middle" title="get in touch"></divider>
-    <footer id="footer" class="w-full h-screen font-sanspro">
+    <footer id="footer" class="w-full h-auto font-sanspro">
       <div class="flex h-auto bg-footerGray">
         <div class="w-1/6"></div>
         <div class="flex flex-col w-2/6 mr-3 md:mr-1 lg:mr-0">
@@ -64,13 +64,13 @@
       <div class="flex justify-center h-auto bg-footerBlack">
         <div class="w-1/6"> </div>
         <div class="flex flex-row hidden w-1/6 md:flex">
-          <div class="mt-20 text-xl font-bold text-white lg:text-2xl"> <span class="p-4 bg-red-600 rounded-lg"> Jacob Patel</span></div>
+          <div class="mt-24 text-xl font-bold text-white lg:text-2xl"> <span class="p-4 bg-red-600 rounded-lg"> Jacob Patel</span></div>
         </div>
         <div class="w-3/6">
           <p
             class="mt-20 text-xl font-extrabold text-white lg:text-2xl"
           >I work to bridge financial barriers and expand education to all; <span class="text-red-600">let's build something together.</span></p>
-          <div class="flex flex-col mt-16 md:flex-row">
+          <div class="flex flex-col mt-6 md:flex-row">
             <div
               class="flex font-semibold text-white lg:w-1/3 text-md"
             >Find me on social media:</div>
@@ -91,30 +91,30 @@
               </a>
             </div>
           </div>
-          <div class="flex flex-col mt-3 md:flex-row">
+          <div class="flex flex-col mt-2 md:flex-row">
             <div class="flex font-semibold text-white lg:w-1/3 text-md">Send me a message:</div>
             <div
-              class="flex w-1/3 mt-4 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md"
+              class="flex w-1/3 mt-2 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md" href="mailto:jseanpatel@berkeley.edu"
             >jseanpatel@berkeley.edu</div>
           </div>
-          <div class="flex flex-col mt-3 md:flex-row">
+          <div class="flex flex-col mt-2 md:flex-row">
             <div
               class="flex justify-start font-semibold text-white lg:w-1/3 text-md"
             >  Checkout out my resume: </div>
             <a href="Resume.pdf">
             <div
-              class="flex mt-4 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md"
+              class="flex mt-2 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md"
             > resume</div></a>
           </div>
 
-          <div class="flex py-24 font-normal text-white text-md">
+          <div class="flex pt-40 pb-4 font-normal text-white text-md">
             <span>
             The source code of this website is licensed MIT and is available on Github.
             <a
               href="https://github.com/jseanpatel/Portfolio"
             >
               <font-awesome
-                class="ml-0 text-white md:ml-1 lg:ml-2 fa-lg md:fa-2x"
+                class="ml-0 text-white md:ml-1 sm:ml-4 fa-lg md:fa-2x"
                 :icon="['fab', 'github']"
               />
             </a>
