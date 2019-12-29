@@ -12,11 +12,12 @@
     <div class="flex font-sanspro">
       <div class="flex-row hidden text-center md:w-1/3 md:block"></div>
       <div class="flex-row w-full text-center md:w-1/3">
+        <img :src="require(`@/assets/img/${filename}`)"> 
         <p class="w-full text-2xl font-bold md:text-2xl lg:text-3xl">{{name}}</p>
         <p class="hidden text-md md:text-lg lg:text-xl md:block">{{description}}</p>
          <div class="flex flex-row justify-around mx-6 text-center lg:mx-0 md:hidden lg:flex-col">
         <div v-for="tag in tags">
-          <technology-tag :title="tag"></technology-tag>
+          <technology-tag :title="tag" :filename=""></technology-tag>
         </div>
       </div>
       </div>
@@ -37,7 +38,7 @@ export default {
     TechnologyTag
   },
   name: "Project",
-  props: ["name", "description", "tags"],
+  props: ["name", "description", "tags", "filename"],
   data() {
     return {
       message: "Try change me!"
