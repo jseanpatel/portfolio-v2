@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "gh-pages": "^2.1.1",
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.6.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",

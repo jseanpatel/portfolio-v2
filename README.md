@@ -1,14 +1,47 @@
-# Default starter for Gridsome
+# Developer Portfolio
 
-This is the project you get when you run `gridsome create new-project`.
+*Website for my personal developer portfolio.* 
 
-### 1. Install Gridsome CLI tool if you don't have
+## Table of Contents
+- [Description](#description)
+- [Technologies](#technologies)
+- [Deployment](#deployment)
+- [License](#license)
 
-`npm install --global @gridsome/cli`
+## Description
 
-### 2. Create a Gridsome project
+This website was built to house my personal projects, information, and interests.
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## Technologies
+
+* [Vue](https://vuejs.org/)
+* [Gridsome](https://gridsome.org/)
+* [TailwindCSS](https://tailwindcss.com/)
+
+## Deployment
+
+ This website can be reached at [https://jacobpa.tel](https://jacobpa.tel).
+
+## License
+
+ MIT License
+
+Copyright (c) 2019 Jacob Patel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
