@@ -6,7 +6,7 @@
       </div>
       <div class="self-center flex-initial w-4/6 bg-red-600">
         <div
-          class="flex justify-center h-auto text-2xl text-center text-white md:text-3xl lg:text-4xl md:text-left font-sanspro"
+          class="flex justify-center h-auto text-3xl text-center text-white md:text-3xl lg:text-4xl md:text-left font-sanspro"
         >
           <p>
             <span class="pr-1 font-semibold">Hi.</span>
@@ -94,16 +94,16 @@
           <div class="flex flex-col mt-2 md:flex-row">
             <div class="flex font-semibold text-white lg:w-1/3 text-md">Send me a message:</div>
             <div
-              class="flex w-1/3 mt-2 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md" href="mailto:jseanpatel@berkeley.edu"
+              class="flex w-1/3 mt-2 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com" target="_blank"
             >jseanpatel@berkeley.edu</div>
           </div>
           <div class="flex flex-col mt-2 md:flex-row">
             <div
               class="flex justify-start font-semibold text-white lg:w-1/3 text-md"
             >  Checkout out my resume: </div>
-            <a href="Resume.pdf">
-            <div
-            > JacobPatelResume</div></a>
+            <a href="Resume.pdf" >
+            <div class="flex mt-4 font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md"
+            > resume</div></a>
 
           </div>
 

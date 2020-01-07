@@ -20,7 +20,7 @@
         </div>
       </div>
       </div>
-      <div class="flex flex-row justify-start hidden w-1/3 text-center md:block md:flex-col">
+      <div class="flex flex-row justify-start hidden w-auto text-center md:block md:flex-col">
         <div v-for="tag in tags">
           <technology-tag :title="tag"></technology-tag>
         </div>
