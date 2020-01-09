@@ -75,7 +75,7 @@
               class="flex font-semibold text-white lg:w-1/3 text-md"
             >Find me on social media:</div>
             <div
-              class="flex items-center justify-between mt-4 text-sm font-normal text-white underline md:w-1/3 lg:-ml-4 md:justify-around md:mt-0"
+              class="flex items-center justify-between mt-4 text-sm font-normal text-white underline sm:w-1/3 md:w-1/2 lg:w-1/3 lg:-ml-4 md:justify-around md:mt-0"
             >
               <a href="https://github.com/jseanpatel">
                 <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'github']" />
