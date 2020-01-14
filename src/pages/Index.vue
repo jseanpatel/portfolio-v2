@@ -49,7 +49,7 @@
           >What am I currently working on?</p>
           <p
             class="pb-12 mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >I'm currently working on expanding my personal portfolio.</p>
+          >I'm currently working on expanding my personal portfolio and learning more about DevOps.</p>
         </div>
         <div
           class="flex flex-col w-2/6 max-w-sm pt-12 pl-0 text-lg font-bold text-white lg:ml-0 md:text-xl lg:text-2xl"
