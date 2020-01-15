@@ -33,7 +33,7 @@
       <div class="flex w-full h-auto bg-backgroundGray">
         <div class="flex-row w-full h-auto">
           <div v-for="project in projects.projects" v-bind:key="project.name">
-            <project :name="project.name" :description="project.description" :tags="project.tags"></project>
+            <project :name="project.name" :description="project.description" :tags="project.tags" :img="project.img"></project>
             <hr class="justify-center invisible border-gray-300 border-solid rounded-lg md:visible" />
           </div>
         </div>
@@ -154,3 +154,5 @@ export default {
   }
 };
 </script>
+
+

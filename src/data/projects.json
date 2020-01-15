@@ -1,7 +1,7 @@
 {
     "projects": {
         "flyright": {
-            "image": "flyright.png",
+            "img": "flyright.png",
             "name": "FlyRight: Space Adventure",
             "description": "A dangerous space adventure game",
             "tags": [
@@ -11,7 +11,7 @@
             ]
         },
         "maribel": {
-            "image": "maribel.png",
+            "img": "maribel.png",
             "name": "Maribel - MLA Formatter",
             "description": "An all-in-one tool for writing papers",
             "tags": [
@@ -21,7 +21,7 @@
             ]
         },
         "j2c": {
-            "image": "j2c.png",
+            "img": "j2c.png",
             "name": "J2C - Jumpstart to College",
             "description": "A college date and deadline manager",
             "tags": [
@@ -31,7 +31,7 @@
             ]
         },
         "ruhbl": {
-            "image": "rubhl.png",
+            "img": "rubhl.png",
             "name": "RUHBL - Home",
             "description": "The Redding United History Bowl League website",
             "tags": [
