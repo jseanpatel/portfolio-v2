@@ -1,21 +1,21 @@
 <template>
-  <div class="flex-initial w-full h-56 bg-gray-100">
-    <div class="flex justify-center">
+  <div class="flex-col w-full h-auto bg-gray-100">
+    <div class="flex justify-center h-half">
       <!-- gridsome bug, address later https://github.com/gridsome/gridsome/issues/292 -->
-      <g-image class="w-1/6" :src="require('!!assets-loader!~/assets/' + img)"/>
+      <g-image class="self-center w-24 m-4 bg-gray-200 border rounded-lg" :src="require('!!assets-loader!~/assets/' + img)"/>
     </div>
-    <div class="flex font-sanspro">
+    <div class="flex pb-2 font-sanspro">
       <div class="flex-row hidden text-center md:w-1/3 md:block"></div>
       <div class="flex-row w-full text-center md:w-1/3">
         <p class="w-full text-2xl font-bold md:text-2xl lg:text-3xl">{{name}}</p>
         <p class="hidden text-md md:text-lg lg:text-xl md:block">{{description}}</p>
-        <div class="flex flex-row justify-around mx-6 text-center lg:mx-0 md:hidden lg:flex-col">
+        <div class="flex flex-row justify-around mx-20 text-center lg:mx-0 md:hidden lg:flex-col">
           <div v-for="tag in tags">
             <technology-tag :title="tag"></technology-tag>
           </div>
         </div>
       </div>
-      <div class="flex flex-row justify-start hidden w-auto text-center md:block md:flex-col">
+      <div class="flex flex-row justify-start hidden w-auto ml-1 text-center md:block md:flex-col">
         <div v-for="tag in tags">
           <technology-tag :title="tag"></technology-tag>
         </div>

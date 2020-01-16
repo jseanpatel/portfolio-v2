@@ -31,9 +31,9 @@
             ]
         },
         "ruhbl": {
-            "img": "rubhl.png",
-            "name": "RUHBL - Home",
-            "description": "The Redding United History Bowl League website",
+            "img": "ruhbl.png",
+            "name": "RUHBL - Home Website",
+            "description": "The Redding United History Bowl League",
             "tags": [
                 "JavaScript",
                 "Fontawesome",
