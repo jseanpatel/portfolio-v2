@@ -63,7 +63,7 @@
       </div>
       <div class="flex justify-start h-auto bg-footerBlack">
         <div class="w-1/6"> </div>
-        <div class="flex flex-row hidden w-1/6 md:flex">
+        <div class="flex flex-row hidden w-1/6 lg:flex">
           <div class="mt-24 text-xl font-bold text-white lg:text-2xl"> <span class="p-4 bg-red-600 rounded-lg"> Jacob Patel</span></div>
         </div>
         <div class="w-4/6">
@@ -72,10 +72,10 @@
           >I work to bridge financial barriers and expand education to all; <span class="text-red-600">let's build something together.</span></p>
           <div class="flex flex-row mt-6">
             <div
-              class="flex flex-initial w-3/6 font-semibold text-white lg:w-2/6 text-md"
+              class="flex flex-initial w-auto font-semibold text-white text-md"
             >Find me on social media:</div>
             <div
-              class="flex flex-row items-center justify-between w-3/6 text-sm font-normal text-white underline md:w-1/2 lg:w-2/6 md:justify-around md:mt-0"
+              class="flex flex-row items-center justify-around w-1/5 ml-3 text-sm font-normal text-white underline md:w-1/4 lg:w-1/4 md:mt-0"
             >
               <a href="https://github.com/jseanpatel">
                 <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'github']" />
@@ -92,17 +92,17 @@
             </div>
           </div>
           <div class="flex flex-row mt-2">
-            <div class="flex w-3/6 font-semibold text-white lg:w-2/6 text-md">Send me a message:</div>
+            <div class="flex w-auto font-semibold text-white lg:w-auto text-md">Send me a message:</div>
             <div
-              class="flex w-3/6 font-normal text-white underline lg:w-2/6 text-md" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com" target="_blank"
+              class="flex w-auto ml-3 font-normal text-white underline lg:w-auto text-md" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com" target="_blank"
             >jseanpatel@berkeley.edu</div>
           </div>
           <div class="flex flex-row mt-2 ">
             <div
-              class="flex justify-start w-3/6 font-semibold text-white lg:w-1/3 text-md"
+              class="flex justify-start w-auto font-semibold text-white text-md"
             >  Checkout out my resume: </div>
             <a href="Resume.pdf" >
-            <div class="flex font-normal text-white underline md:ml-4 lg:ml-0 md:mt-0 text-md"
+            <div class="flex w-auto ml-3 font-normal text-white underline md:ml-4 md:mt-0 text-md"
             > resume</div></a>
 
           </div>
