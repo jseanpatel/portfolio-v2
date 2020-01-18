@@ -16,7 +16,6 @@
       </div>
 
       <div class="flex-initial w-1/6 bg-red-600"></div>
-      
     </div>
     <divider class="justify-center align-middle" title="a little bit about me"></divider>
     <div id="about">
@@ -31,11 +30,18 @@
     <divider class="justify-center align-middle" title="a collection of my projects"></divider>
     <div class="flex" id="projects">
       <div class="flex-col w-full h-auto bg-backgroundGray">
-        <div class="flex-row w-full h-auto" v-for="project in projects.projects" v-bind:key="project.name">
-          
-            <project :name="project.name" :description="project.description" :tags="project.tags" :img="project.img"></project>
-            <hr class="justify-center invisible border-gray-300 border-solid rounded-lg md:visible" />
-          
+        <div
+          class="flex-row w-full h-auto"
+          v-for="project in projects.projects"
+          v-bind:key="project.name"
+        >
+          <project
+            :name="project.name"
+            :description="project.description"
+            :tags="project.tags"
+            :img="project.img"
+          ></project>
+          <hr class="justify-center invisible border-gray-300 border-solid rounded-lg md:visible" />
         </div>
       </div>
     </div>
@@ -62,25 +68,30 @@
         <div class="w-1/6"></div>
       </div>
       <div class="flex justify-start h-auto bg-footerBlack">
-        <div class="w-1/6"> </div>
+        <div class="w-1/6"></div>
         <div class="flex flex-row hidden w-1/6 lg:flex">
-          <div class="mt-24 text-xl font-bold text-white lg:text-2xl"> <span class="p-4 bg-red-600 rounded-lg"> Jacob Patel</span></div>
+          <div class="mt-24 text-xl font-bold text-white lg:text-2xl">
+            <span class="p-4 bg-red-600 rounded-lg">Jacob Patel</span>
+          </div>
         </div>
         <div class="w-4/6">
-          <p
-            class="mt-20 text-xl font-extrabold text-white lg:text-2xl"
-          >I work to bridge financial barriers and expand education to all; <span class="text-red-600">let's build something together.</span></p>
+          <p class="mt-20 text-sm text-xl font-extrabold text-white lg:text-2xl ">
+            I work to bridge financial barriers and expand education to all;
+            <span
+              class="text-red-600"
+            >let's build something together.</span>
+          </p>
           <div class="flex flex-row mt-6">
             <div
               class="flex flex-initial w-auto font-semibold text-white text-md"
             >Find me on social media:</div>
             <div
-              class="flex flex-row items-center justify-around w-1/5 ml-3 text-sm font-normal text-white underline md:w-1/4 lg:w-1/4 md:mt-0"
+              class="flex flex-row items-center justify-around w-1/3 ml-3 text-sm font-normal text-white underline md:w-1/4 lg:w-1/4 md:mt-0"
             >
               <a href="https://github.com/jseanpatel">
                 <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'github']" />
               </a>
-               <a href="https://twitter.com/">
+              <a href="https://twitter.com/">
                 <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'twitter']" />
               </a>
               <a href="https://www.linkedin.com/in/jseanpatel/">
@@ -94,37 +105,38 @@
           <div class="flex flex-row mt-2">
             <div class="flex w-auto font-semibold text-white lg:w-auto text-md">Send me a message:</div>
             <div
-              class="flex w-auto ml-3 font-normal text-white underline lg:w-auto text-md" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com" target="_blank"
+              class="flex w-auto ml-3 font-normal text-white underline lg:w-auto text-md"
+              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com"
+              target="_blank"
             >jseanpatel@berkeley.edu</div>
           </div>
-          <div class="flex flex-row mt-2 ">
+          <div class="flex flex-row mt-2">
             <div
               class="flex justify-start w-auto font-semibold text-white text-md"
-            >  Checkout out my resume: </div>
-            <a href="Resume.pdf" >
-            <div class="flex w-auto ml-3 font-normal text-white underline md:ml-4 md:mt-0 text-md"
-            > resume</div></a>
-
+            >Checkout out my resume:</div>
+            <a href="Resume.pdf">
+              <div
+                class="flex w-auto ml-3 font-normal text-white underline md:ml-4 md:mt-0 text-md"
+              >resume</div>
+            </a>
           </div>
 
           <div class="flex pt-40 pb-4 font-normal text-white text-md">
             <span>
-            The source code of this website is licensed MIT and is available on Github.
-            <a
-              href="https://github.com/jseanpatel/Portfolio"
-            >
-              <font-awesome
-                class="ml-1 text-white md:ml-1 sm:ml-4 fa-lg md:fa-2x"
-                :icon="['fab', 'github']"
-              />
-            </a>
+              The source code of this website is licensed MIT and is available on Github.
+              <a
+                href="https://github.com/jseanpatel/Portfolio"
+              >
+                <font-awesome
+                  class="ml-1 text-white md:ml-1 sm:ml-4 fa-lg md:fa-2x"
+                  :icon="['fab', 'github']"
+                />
+              </a>
             </span>
           </div>
         </div>
-      
-      
-      <div class="w-1/6">
-      </div>
+
+        <div class="w-1/6"></div>
       </div>
     </footer>
   </Layout>

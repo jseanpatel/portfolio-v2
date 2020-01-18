@@ -21,7 +21,9 @@ module.exports = {
         footerGray: '#525252',
         footerBlack: '#333333',
         hiddenGray: "#484848"
-
+      },
+      fontSize: {
+        xxs: '0.625rem'
       }
 
     }
