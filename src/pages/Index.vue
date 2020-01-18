@@ -63,7 +63,7 @@
           <div class="pl-4 -ml-4">Where am I heading next?</div>
           <p
             class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >Thai Basil in Berkeley. Check it out. It's really something special.</p>
+          >Thai Basil in Berkeley. Check it out - it's really something special.</p>
         </div>
         <div class="w-1/6"></div>
       </div>
@@ -74,7 +74,7 @@
             <span class="p-4 bg-red-600 rounded-lg">Jacob Patel</span>
           </div>
         </div>
-        <div class="w-4/6">
+        <div class="w-4/6 lg:w-3/6">
           <p class="mt-20 text-sm text-xl font-extrabold text-white lg:text-2xl ">
             I work to bridge financial barriers and expand education to all;
             <span
@@ -83,10 +83,13 @@
           </p>
           <div class="flex flex-row mt-6">
             <div
-              class="flex flex-initial w-auto font-semibold text-white text-md"
+              class="flex flex-initial hidden w-auto font-semibold text-white md:block text-md md:text-md"
             >Find me on social media:</div>
             <div
-              class="flex flex-row items-center justify-around w-1/3 ml-3 text-sm font-normal text-white underline md:w-1/4 lg:w-1/4 md:mt-0"
+              class="flex flex-initial block w-auto font-semibold text-white md:hidden text-md md:text-md"
+            >Social media:</div>
+            <div
+              class="flex flex-row items-center justify-around w-1/2 ml-3 text-sm font-normal text-white underline sm:w-1/3 md:w-1/4 lg:w-1/4 md:mt-0"
             >
               <a href="https://github.com/jseanpatel">
                 <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'github']" />
@@ -102,17 +105,22 @@
               </a>
             </div>
           </div>
-          <div class="flex flex-row mt-2">
-            <div class="flex w-auto font-semibold text-white lg:w-auto text-md">Send me a message:</div>
+          <div class="flex flex-row mt-2 overflow-auto">
+            <div class="flex w-auto font-semibold text-white text-md lg:w-auto">Send me a message:</div>
             <div
-              class="flex w-auto ml-3 font-normal text-white underline lg:w-auto text-md"
+              class="flex block w-auto ml-3 font-normal text-white underline md:hidden text-md overflow lg:w-auto"
+              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com"
+              target="_blank"
+            >email</div>
+            <div
+              class="flex hidden w-auto ml-3 font-normal text-white underline md:block text-md overflow lg:w-auto"
               href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com"
               target="_blank"
             >jseanpatel@berkeley.edu</div>
           </div>
           <div class="flex flex-row mt-2">
             <div
-              class="flex justify-start w-auto font-semibold text-white text-md"
+              class="flex justify-start w-auto font-semibold text-white text-md sm:text-md"
             >Checkout out my resume:</div>
             <a href="Resume.pdf">
               <div
@@ -136,7 +144,7 @@
           </div>
         </div>
 
-        <div class="w-1/6"></div>
+       
       </div>
     </footer>
   </Layout>
