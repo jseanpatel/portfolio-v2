@@ -75,7 +75,7 @@
           </div>
         </div>
         <div id="contact" class="w-4/6 lg:w-3/6">
-          <p class="mt-20 text-sm text-xl font-extrabold text-white lg:text-2xl">
+          <p class="mt-20 text-xl font-extrabold text-white lg:text-2xl">
             I work to bridge financial barriers and expand education to all;
             <span
               class="text-red-600"
@@ -137,7 +137,7 @@
                 href="https://github.com/jseanpatel/Portfolio"
               >
                 <font-awesome
-                  class="ml-1 text-white md:ml-1 sm:ml-4 fa-lg md:fa-2x"
+                  class="ml-0 text-white md:ml-1 fa-lg md:fa-2x"
                   :icon="['fab', 'github']"
                 />
               </a>
