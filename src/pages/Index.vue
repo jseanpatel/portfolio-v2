@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div id="landing" class="flex w-full h-screen bg-red-600">
+    <div class="flex w-full h-screen bg-red-600" id="landing">
       <div class="self-end flex-initial w-1/6 mb-12 bg-red-600">
         <navigation-bar></navigation-bar>
       </div>
@@ -17,8 +17,8 @@
 
       <div class="flex-initial w-1/6 bg-red-600"></div>
     </div>
-    <divider class="justify-center align-middle" title="a little bit about me"></divider>
-    <div id="about">
+    <divider class="justify-center align-middle" id="about" title="a little bit about me"></divider>
+    <div>
       <div class="flex justify-center w-full py-32 bg-backgroundGray">
         <div
           class="self-center w-2/3 p-10 text-sm text-center bg-white rounded-lg lg:text-xl md:text-md md:p-16 sm:text-sm font-sanspro"
@@ -27,8 +27,8 @@
         </div>
       </div>
     </div>
-    <divider class="justify-center align-middle" title="a collection of my projects"></divider>
-    <div class="flex" id="projects">
+    <divider class="justify-center align-middle" id="projects" title="a collection of my projects"></divider>
+    <div class="flex">
       <div class="flex-col w-full h-auto bg-backgroundGray">
         <div
           class="flex-row w-full h-auto"
@@ -45,22 +45,22 @@
         </div>
       </div>
     </div>
-    <divider class="justify-center align-middle" title="get in touch"></divider>
-    <footer id="footer" class="w-full h-auto font-sanspro">
+    <divider class="justify-center align-middle" id="blog" title="get in touch"></divider>
+    <footer class="w-full h-auto font-sanspro" id="footer">
       <div class="flex h-auto bg-footerGray">
         <div class="w-1/6"></div>
         <div class="flex flex-col w-2/6 mr-4 lg:mr-0">
           <p
             class="pt-12 text-lg font-bold text-white md:text-xl lg:text-2xl"
-          >What am I currently working on?</p>
+          >What am I currently building?</p>
           <p
             class="pb-12 mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
           >I'm currently working on expanding my personal portfolio and learning more about DevOps.</p>
         </div>
         <div
-          class="flex flex-col w-2/6 max-w-sm pt-12 pl-0 text-lg font-bold text-white lg:ml-0 md:text-xl lg:text-2xl"
+          class="flex flex-col w-2/6 max-w-sm pt-12 pl-0 ml-8 text-lg font-bold text-white lg:ml-0 md:text-xl lg:text-2xl"
         >
-          <div class="pl-4 -ml-4">Where am I heading next?</div>
+          <div class>Where am I heading next?</div>
           <p
             class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
           >Thai Basil in Berkeley. Check it out - it's really something special.</p>
@@ -74,8 +74,8 @@
             <span class="p-4 bg-red-600 rounded-lg">Jacob Patel</span>
           </div>
         </div>
-        <div class="w-4/6 lg:w-3/6">
-          <p class="mt-20 text-sm text-xl font-extrabold text-white lg:text-2xl ">
+        <div id="contact" class="w-4/6 lg:w-3/6">
+          <p class="mt-20 text-sm text-xl font-extrabold text-white lg:text-2xl">
             I work to bridge financial barriers and expand education to all;
             <span
               class="text-red-600"
@@ -84,6 +84,7 @@
           <div class="flex flex-row mt-6">
             <div
               class="flex flex-initial hidden w-auto font-semibold text-white md:block text-md md:text-md"
+              ref="hello"
             >Find me on social media:</div>
             <div
               class="flex flex-initial block w-auto font-semibold text-white md:hidden text-md md:text-md"
@@ -143,8 +144,6 @@
             </span>
           </div>
         </div>
-
-       
       </div>
     </footer>
   </Layout>
