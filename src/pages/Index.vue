@@ -95,7 +95,7 @@
               <a href="https://github.com/jseanpatel">
                 <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'github']" />
               </a>
-              <a href="https://twitter.com/">
+              <a href="https://twitter.com/jseanpatel">
                 <font-awesome class="text-white fa-lg md:fa-2x" :icon="['fab', 'twitter']" />
               </a>
               <a href="https://www.linkedin.com/in/jseanpatel/">

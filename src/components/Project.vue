@@ -7,7 +7,7 @@
     <div class="flex pb-2 font-sanspro">
       <div class="flex-row hidden text-center md:w-1/3 md:block"></div>
       <div class="flex-row w-full text-center md:w-1/3">
-        <p class="w-full text-2xl font-bold md:text-2xl lg:text-3xl">{{name}}</p>
+        <p class="w-full pt-1 text-2xl font-bold md:text-2xl lg:text-3xl">{{name}}</p>
         <p class="hidden text-md md:text-lg lg:text-xl md:block">{{description}}</p>
         <div class="flex justify-center text-center lg:mx-0 md:hidden lg:flex-col">
           <div v-for="tag in tags">
