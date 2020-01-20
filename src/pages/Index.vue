@@ -49,18 +49,18 @@
     <footer class="w-full h-auto font-sanspro" id="footer">
       <div class="flex h-auto bg-footerGray">
         <div class="w-1/6"></div>
-        <div class="flex flex-col w-2/6 mr-4 lg:mr-0">
+        <div class="flex flex-col w-2/6 px-2 pt-12 mx-4 lg:mr-0">
           <p
-            class="pt-12 text-lg font-bold text-white md:text-xl lg:text-2xl"
+            class="text-lg font-bold text-white md:text-xl lg:text-2xl"
           >What am I currently building?</p>
           <p
             class="pb-12 mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
           >I'm currently working on expanding my personal portfolio and learning more about DevOps.</p>
         </div>
         <div
-          class="flex flex-col w-2/6 max-w-sm pt-12 pl-0 ml-8 text-lg font-bold text-white lg:ml-0 md:text-xl lg:text-2xl"
+          class="flex flex-col w-2/6 px-2 pt-12 mx-4 text-lg"
         >
-          <div class>Where am I heading next?</div>
+          <div class="text-lg font-bold text-white md:text-xl lg:text-2xl">Where am I heading next?</div>
           <p
             class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
           >Thai Basil in Berkeley. Check it out - it's really something special.</p>
@@ -115,7 +115,7 @@
             >email</div>
             <div
               class="flex hidden w-auto ml-3 font-normal text-white underline md:block text-md overflow lg:w-auto"
-              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com"
+              mailto="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com"
               target="_blank"
             >jseanpatel@berkeley.edu</div>
           </div>
@@ -129,7 +129,7 @@
               >resume</div>
             </a>
           </div>
-
+          
           <div class="flex pt-40 pb-4 font-normal text-white text-md">
             <span>
               The source code of this website is licensed MIT and is available on Github.
@@ -144,6 +144,7 @@
             </span>
           </div>
         </div>
+        <div class="hidden lg:w-1/6 lg:block"> </div>
       </div>
     </footer>
   </Layout>
