@@ -1,8 +1,8 @@
 <template>
-  <div class="flex-col w-full h-auto bg-gray-100">
-    <div class="flex justify-center h-half">
+  <div class="flex-col w-full h-auto p-2 bg-gray-100">
+    <div class="flex items-end justify-center">
       <!-- gridsome bug, address later https://github.com/gridsome/gridsome/issues/292 -->
-      <g-image class="self-center w-24 m-4 bg-gray-200 border rounded-lg" :src="require('!!assets-loader!~/assets/' + img)"/>
+      <g-image class="self-end w-24 mt-2 bg-gray-200 border rounded-lg" :src="require('!!assets-loader!~/assets/' + img)"/>
     </div>
     <div class="flex pb-2 font-sanspro">
       <div class="flex-row hidden text-center md:w-1/3 md:block"></div>
@@ -15,7 +15,7 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-row justify-start hidden w-auto ml-2 text-center md:block md:flex-col">
+      <div class="flex flex-row justify-start hidden w-auto ml-1 text-center md:block md:flex-col">
         <div v-for="tag in tags" >
           <technology-tag :title="tag"></technology-tag>
         </div>

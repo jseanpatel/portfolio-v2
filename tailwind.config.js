@@ -24,8 +24,11 @@ module.exports = {
       },
       fontSize: {
         xxs: '0.625rem'
-      }
-
-    }
-  }
+      },  
+  },
+ 
+},
+plugins: [
+  require('tailwindcss-transitions')(),
+],
 }

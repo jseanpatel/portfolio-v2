@@ -10,11 +10,11 @@
         >
           <p>
             <span class="pr-1 font-semibold">Hi.</span>
-            <span class="font-thin">My name is Jacob. I educate with code.</span>
+            <span class="font-thin">My name is Jacob.  <span class="pr-1 font-semibold">I educate with code.</span></span>
           </p>
         </div>
       </div>
-
+    
       <div class="flex-initial w-1/6 bg-red-600"></div>
     </div>
     <divider class="justify-center align-middle" id="about" title="a little bit about me"></divider>
@@ -76,10 +76,10 @@
         </div>
         <div id="contact" class="w-4/6 lg:w-3/6">
           <p class="mt-20 text-xl font-extrabold text-white lg:text-2xl">
-            I work to bridge financial barriers and expand education to all;
+            I work to bridge financial barriers and expand education to all.
             <span
               class="text-red-600"
-            >let's build something together.</span>
+            >Let's build something together.</span>
           </p>
           <div class="flex flex-row mt-6">
             <div
@@ -113,12 +113,13 @@
               href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com"
               target="_blank"
             >email</div>
-            <div
+            <a
               class="flex hidden w-auto ml-3 font-normal text-white underline md:block text-md overflow lg:w-auto"
-              mailto="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com"
+              href="mailto:jseanpatel@berkeley.edu"
               target="_blank"
-            >jseanpatel@berkeley.edu</div>
+            >jseanpatel@berkeley.edu</a>
           </div>
+          
           <div class="flex flex-row mt-2">
             <div
               class="flex justify-start w-auto font-semibold text-white text-md sm:text-md"
