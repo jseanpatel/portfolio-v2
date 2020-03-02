@@ -10,11 +10,14 @@
         >
           <p>
             <span class="pr-1 font-semibold">Hi.</span>
-            <span class="font-thin">My name is Jacob.  <span class="pr-1 font-semibold">I educate with code.</span></span>
+            <span class="font-thin">
+              My name is Jacob.
+              <span class="pr-1 font-semibold">I educate with code.</span>
+            </span>
           </p>
         </div>
       </div>
-    
+
       <div class="flex-initial w-1/6 bg-red-600"></div>
     </div>
     <divider class="justify-center align-middle" id="about" title="a little bit about me"></divider>
@@ -49,21 +52,19 @@
     <footer class="w-full h-auto font-sanspro" id="footer">
       <div class="flex h-auto bg-footerGray">
         <div class="w-1/6"></div>
-        <div class="flex flex-col w-2/6 px-2 pt-12 mx-4 lg:mr-0">
+        <div class="flex flex-col w-2/6 pt-12 mx-2 lg:mr-0">
           <p
             class="text-lg font-bold text-white md:text-xl lg:text-2xl"
           >What am I currently building?</p>
           <p
             class="pb-12 mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >I'm currently working on expanding my personal portfolio and learning more about DevOps.</p>
+          >I'm currently working on expanding my personal portfolio and learning more about React.</p>
         </div>
-        <div
-          class="flex flex-col w-2/6 px-2 pt-12 mx-4 text-lg"
-        >
+        <div class="flex flex-col w-2/6 pt-12 mx-4 text-lg">
           <div class="text-lg font-bold text-white md:text-xl lg:text-2xl">Where am I heading next?</div>
           <p
             class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >Thai Basil in Berkeley. Check it out - it's really something special.</p>
+          >Git Merge 2020 in Downtown LA. I intend to learn more about DevOps as well as the tasty event snacks.</p>
         </div>
         <div class="w-1/6"></div>
       </div>
@@ -119,7 +120,7 @@
               target="_blank"
             >jseanpatel@berkeley.edu</a>
           </div>
-          
+
           <div class="flex flex-row mt-2">
             <div
               class="flex justify-start w-auto font-semibold text-white text-md sm:text-md"
@@ -130,7 +131,7 @@
               >resume</div>
             </a>
           </div>
-          
+
           <div class="flex pt-40 pb-4 font-normal text-white text-md">
             <span>
               The source code of this website is licensed MIT and is available on Github.
@@ -145,7 +146,7 @@
             </span>
           </div>
         </div>
-        <div class="hidden lg:w-1/6 lg:block"> </div>
+        <div class="hidden lg:w-1/6 lg:block"></div>
       </div>
     </footer>
   </Layout>
