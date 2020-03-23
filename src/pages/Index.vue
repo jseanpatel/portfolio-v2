@@ -43,6 +43,7 @@
             :description="project.description"
             :tags="project.tags"
             :img="project.img"
+            :url="project.url"
           ></project>
           <hr class="justify-center invisible border-gray-300 border-solid rounded-lg md:visible" />
         </div>

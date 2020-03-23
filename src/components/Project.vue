@@ -1,10 +1,13 @@
 <template>
-  <div class="flex-col w-full h-auto p-2 bg-gray-100">
+  <div class="flex-col w-full h-auto p-2 duration-500 bg-gray-100">
+    <a :href="url">
     <div class="flex items-end justify-center">
       <!-- gridsome bug, address later https://github.com/gridsome/gridsome/issues/292 -->
-      <g-image class="self-end w-24 mt-2 bg-gray-200 border rounded-lg" :src="require('!!assets-loader!~/assets/' + img)"/>
+      <g-image class="self-end w-24 mt-2 transition duration-100 ease-in-out transform bg-gray-200 border rounded-lg hover:-translate-y-1 hover:scale-110" :src="require('!!assets-loader!~/assets/' + img)"/>
+      
     </div>
-    <div class="flex pb-2 font-sanspro">
+    </a>
+    <div class="flex font-sanspro">
       <div class="flex-row hidden text-center md:w-1/3 md:block"></div>
       <div class="flex-row w-full text-center md:w-1/3">
         <p class="w-full pt-1 text-2xl font-bold md:text-2xl lg:text-3xl">{{name}}</p>
@@ -32,7 +35,7 @@ export default {
     TechnologyTag
   },
   name: "Project",
-  props: ["name", "description", "tags", "img"],
+  props: ["name", "description", "tags", "img", "url"],
   data() {
     return {
       message: "Try change me!"
