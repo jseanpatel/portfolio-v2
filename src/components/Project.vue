@@ -3,7 +3,7 @@
     <a :href="url">
     <div class="flex items-end justify-center">
       <!-- gridsome bug, address later https://github.com/gridsome/gridsome/issues/292 -->
-      <g-image class="self-end w-24 mt-2 transition duration-200 ease-in-out transform bg-gray-200 border rounded-lg hover:-translate-y-1 hover:scale-110" :src="require('!!assets-loader!~/assets/' + img)"/>
+      <g-image class="self-end w-24 mt-2 transition duration-200 ease-in-out transform bg-gray-200 border rounded-lg hover:scale-110" :src="require('!!assets-loader!~/assets/' + img)"/>
       
     </div>
     </a>

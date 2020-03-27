@@ -9,11 +9,15 @@
           class="flex justify-center h-auto text-3xl text-center text-white md:text-3xl lg:text-4xl md:text-left font-sanspro"
         >
           <p>
-            <span class="pr-1 font-semibold">Hi.</span>
+            <span class="pr-1 font-semibold transition duration-300 transformation-shadow">Hi.</span>
+           
             <span class="font-thin">
               My name is Jacob.
               <span class="pr-1 font-semibold">I educate with code.</span>
             </span>
+             <button
+              class="transition duration-1000 bg-blue-500 focus:bg-red transform hover:-translate-y-1 hover:scale-110 ..."
+            >Hover me</button>
           </p>
         </div>
       </div>

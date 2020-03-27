@@ -7,3 +7,6 @@ dist
 .env
 .env.*
 __pycache__
+.Portfolio
+
+
