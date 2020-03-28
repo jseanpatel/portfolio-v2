@@ -15,9 +15,7 @@
               My name is Jacob.
               <span class="pr-1 font-semibold">I educate with code.</span>
             </span>
-             <button
-              class="transition duration-1000 bg-blue-500 focus:bg-red transform hover:-translate-y-1 hover:scale-110 ..."
-            >Hover me</button>
+            
           </p>
         </div>
       </div>
@@ -130,7 +128,7 @@
             <div
               class="flex justify-start w-auto font-semibold text-white text-md sm:text-md"
             >Checkout out my resume:</div>
-            <a href="Resume.pdf">
+            <a href="https://drive.google.com/open?id=1zn7AY7H7qoi3dBHJk6UciWDOOvsibOyN">
               <div
                 class="flex w-auto ml-3 font-normal text-white underline md:ml-4 md:mt-0 text-md"
               >resume</div>
