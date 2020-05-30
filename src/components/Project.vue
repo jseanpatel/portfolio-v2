@@ -1,7 +1,6 @@
 <template>
   <div class="flex-col w-full h-auto p-2 duration-500 bg-gray-100">
     <a :href="url">
-<<<<<<< HEAD
       <div class="flex items-end justify-center">
         <!-- gridsome bug, address later https://github.com/gridsome/gridsome/issues/292 -->
         <g-image
@@ -9,13 +8,6 @@
           :src="require('!!assets-loader!~/assets/' + img)"
         />
       </div>
-=======
-    <div class="flex items-end justify-center">
-      <!-- gridsome bug, address later https://github.com/gridsome/gridsome/issues/292 -->
-      <g-image class="self-end w-24 mt-2 transition duration-200 ease-in-out transform bg-gray-200 border rounded-lg hover:scale-110" :src="require('!!assets-loader!~/assets/' + img)"/>
-      
-    </div>
->>>>>>> b7e09b9e172fc8809fb6a4b9b6450c5f3c42740b
     </a>
     <div class="flex font-sanspro">
       <div class="flex-row hidden text-center md:w-1/3 md:block"></div>
