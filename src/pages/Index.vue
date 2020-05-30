@@ -10,12 +10,11 @@
         >
           <p>
             <span class="pr-1 font-semibold transition duration-300 transformation-shadow">Hi.</span>
-           
+
             <span class="font-thin">
               My name is Jacob.
               <span class="pr-1 font-semibold">I educate with code.</span>
             </span>
-            
           </p>
         </div>
       </div>
@@ -61,13 +60,13 @@
           >What am I currently building?</p>
           <p
             class="pb-12 mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >I'm currently working on expanding my personal portfolio and learning more about React.</p>
+          >I'm currently working on expanding my online educational platform, Treetop Learning.</p>
         </div>
         <div class="flex flex-col w-2/6 pt-12 mx-4 text-lg">
           <div class="text-lg font-bold text-white md:text-xl lg:text-2xl">Where am I heading next?</div>
           <p
             class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >Git Merge 2020 in Downtown LA. I intend to learn more about DevOps as well as the tasty event snacks.</p>
+          >Not exactly sure with the ongoing crisis. Though, I'm loving the opportunity to code for so much of the day.</p>
         </div>
         <div class="w-1/6"></div>
       </div>
