@@ -10,7 +10,6 @@
         >
           <p>
             <span class="pr-1 font-semibold transition duration-300 transformation-shadow">Hi.</span>
-
             <span class="font-thin">
               My name is Jacob.
               <span class="pr-1 font-semibold">I educate with code.</span>
