@@ -5,14 +5,14 @@
       "img": "treetop.png",
       "name": "Treetop Learning",
       "description": "A platform for online computer science lessons",
-      "tags": ["Gatsby", "TailwindCSS", "Firebase"]
+      "tags": ["React", "TailwindCSS", "Firebase"]
     },
     "dbqprepper": {
       "url": "https://dbqprepper.com/",
       "img": "dbqprepper.png",
       "name": "DBQ Prepper",
       "description": "A tool to support AP learning during COVID-19",
-      "tags": ["Gatsby", "TailwindCSS", "Netlify"]
+      "tags": ["React", "TailwindCSS", "Netlify"]
     },
     "maribel": {
       "url": "https://maribel.io/",
