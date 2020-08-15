@@ -1,34 +1,57 @@
 <template>
   <Layout>
-    <div class="flex w-full h-screen bg-red-600" id="landing">
+    <div class="flex w-full h-screen -mt-4 bg-red-600" id="landing">
       <div class="self-end flex-initial w-1/6 mb-12 bg-red-600">
-        <navigation-bar></navigation-bar>
+        <div class="flex justify-center hidden lg:block">
+          <div
+            class="flex flex-col ml-16 text-lg text-center text-white lg:ml-0 md:text-xl lg:text-2xl font-sanspro"
+          >
+            <a href="#about" class="font-bold hover:underline">about</a>
+            <a href="#projects" class="font-bold hover:underline">projects</a>
+            <div
+              class="flex-row w-full h-auto"
+              v-for="project in projects.projects"
+              v-bind:key="project.abbreviation"
+            >
+              <NavigationItem
+                :name="project.abbreviation"
+                :href="'#' + project.abbreviation.replace(/\s/g, '')"
+              ></NavigationItem>
+            </div>
+            <a href="#blog" class="font-bold hover:underline">blog</a>
+            <a href="#contact" class="font-bold hover:underline">contact</a>
+          </div>
+        </div>
       </div>
       <div class="self-center flex-initial w-4/6 bg-red-600">
         <div
-          class="flex justify-center h-auto text-3xl text-center text-white md:text-3xl lg:text-4xl md:text-left font-sanspro"
+          class="flex flex-col h-auto text-3xl text-center text-white md:text-3xl lg:text-4xl md:text-left font-sanspro"
         >
-          <p>
+          <img
+            class="self-center w-48 h-48 mb-4 border rounded-full"
+            alt="headshot"
+            src="../assets/headshot.jpg"
+          />
+
+          <p class="self-center">
             <span class="pr-1 font-semibold transition duration-300 transformation-shadow">Hi.</span>
-           
             <span class="font-thin">
               My name is Jacob.
               <span class="pr-1 font-semibold">I educate with code.</span>
             </span>
-            
           </p>
         </div>
       </div>
 
-      <div class="flex-initial w-1/6 bg-red-600"></div>
+      <div class="w-1/6 bg-red-600"></div>
     </div>
-    <divider class="justify-center align-middle" id="about" title="a little bit about me"></divider>
+    <divider class="justify-center w-full align-middle" id="about" title="a little bit about me"></divider>
     <div>
       <div class="flex justify-center w-full py-32 bg-backgroundGray">
         <div
-          class="self-center w-2/3 p-10 text-sm text-center bg-white rounded-lg lg:text-xl md:text-md md:p-16 sm:text-sm font-sanspro"
+          class="self-center w-2/3 p-10 text-center bg-white rounded-lg text-md lg:text-xl md:text-lg md:p-16 sm:text-sm font-sanspro"
         >
-          <p>I am a student at the University of California, Berkeley studying computer science.</p>
+          <p>I am an undergraduate at the University of California, Berkeley majoring in computer science and minoring in education. I am interested in using technology to bridge educational gaps that underrepresented groups face.</p>
         </div>
       </div>
     </div>
@@ -43,6 +66,7 @@
           <project
             :name="project.name"
             :description="project.description"
+            :id="project.abbreviation.replace(/\s/g, '')"
             :tags="project.tags"
             :img="project.img"
             :url="project.url"
@@ -61,13 +85,13 @@
           >What am I currently building?</p>
           <p
             class="pb-12 mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >I'm currently working on expanding my personal portfolio and learning more about React.</p>
+          >I'm currently working on expanding my online educational platform, Treetop Learning.</p>
         </div>
         <div class="flex flex-col w-2/6 pt-12 mx-4 text-lg">
           <div class="text-lg font-bold text-white md:text-xl lg:text-2xl">Where am I heading next?</div>
           <p
             class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >Git Merge 2020 in Downtown LA. I intend to learn more about DevOps as well as the tasty event snacks.</p>
+          >Right now, I am flushing out my product for the Mozilla Fix-The-Internet Summer Incubator.</p>
         </div>
         <div class="w-1/6"></div>
       </div>
@@ -158,25 +182,30 @@
 <script>
 import TechnologyTag from "~/components/TechnologyTag.vue";
 import Project from "~/components/Project.vue";
-import NavigationBar from "~/components/NavigationBar.vue";
+import NavigationItem from "~/components/NavigationItem.vue";
 import Divider from "~/components/Divider.vue";
 import projects from "~/data/projects.json";
+
+const scrollDown = (location) => {
+  target = document.getElementByID("location");
+  target.scrollIntoView({ behavior: "smooth", alignToTop: false });
+};
 
 export default {
   components: {
     TechnologyTag,
     Project,
-    NavigationBar,
-    Divider
+    NavigationItem,
+    Divider,
   },
   metaInfo: {
-    title: "Jacob Patel"
+    title: "Jacob Patel",
   },
   data() {
     return {
-      projects: projects
+      projects: projects,
     };
-  }
+  },
 };
 </script>
 

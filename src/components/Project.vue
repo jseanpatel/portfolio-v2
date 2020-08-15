@@ -1,11 +1,13 @@
 <template>
-  <div class="flex-col w-full h-auto p-2 duration-500 bg-gray-100">
+  <div class="flex-col w-full h-auto p-2 duration-500 bg-gray-100" :id="id">
     <a :href="url">
-    <div class="flex items-end justify-center">
-      <!-- gridsome bug, address later https://github.com/gridsome/gridsome/issues/292 -->
-      <g-image class="self-end w-24 mt-2 transition duration-200 ease-in-out transform bg-gray-200 border rounded-lg hover:scale-110" :src="require('!!assets-loader!~/assets/' + img)"/>
-      
-    </div>
+      <div class="flex items-end justify-center">
+        <!-- gridsome bug, address later https://github.com/gridsome/gridsome/issues/292 -->
+        <g-image
+          class="self-end w-24 p-2 mt-2 transition duration-200 ease-in-out transform bg-gray-200 border rounded-lg hover:scale-110"
+          :src="require('!!assets-loader!~/assets/' + img)"
+        />
+      </div>
     </a>
     <div class="flex font-sanspro">
       <div class="flex-row hidden text-center md:w-1/3 md:block"></div>
@@ -19,7 +21,7 @@
         </div>
       </div>
       <div class="flex flex-row justify-start hidden w-auto ml-1 text-center md:block md:flex-col">
-        <div v-for="tag in tags" >
+        <div v-for="tag in tags">
           <technology-tag :title="tag"></technology-tag>
         </div>
       </div>
@@ -32,20 +34,20 @@ import TechnologyTag from "~/components/TechnologyTag.vue";
 
 export default {
   components: {
-    TechnologyTag
+    TechnologyTag,
   },
   name: "Project",
-  props: ["name", "description", "tags", "img", "url"],
+  props: ["name", "description", "tags", "img", "url", "id"],
   data() {
     return {
-      message: "Try change me!"
+      message: "Try change me!",
     };
   },
   methods: {
     buildImg() {
       return "@/assets/" + this.img;
-    }
-  }
+    },
+  },
 };
 </script>
 
