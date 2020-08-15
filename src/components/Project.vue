@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-col w-full h-auto p-2 duration-500 bg-gray-100">
+  <div class="flex-col w-full h-auto p-2 duration-500 bg-gray-100" :id="id">
     <a :href="url">
       <div class="flex items-end justify-center">
         <!-- gridsome bug, address later https://github.com/gridsome/gridsome/issues/292 -->
@@ -34,20 +34,20 @@ import TechnologyTag from "~/components/TechnologyTag.vue";
 
 export default {
   components: {
-    TechnologyTag
+    TechnologyTag,
   },
   name: "Project",
-  props: ["name", "description", "tags", "img", "url"],
+  props: ["name", "description", "tags", "img", "url", "id"],
   data() {
     return {
-      message: "Try change me!"
+      message: "Try change me!",
     };
   },
   methods: {
     buildImg() {
       return "@/assets/" + this.img;
-    }
-  }
+    },
+  },
 };
 </script>
 

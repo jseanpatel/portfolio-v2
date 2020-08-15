@@ -1,9 +1,10 @@
 {
   "projects": {
     "treetoplearning": {
-      "url": "https://github.com/treetoplearning",
+      "url": "https://treetoplearning.org",
       "img": "treetop.png",
       "name": "Treetop Learning",
+      "abbreviation": "treetop learning",
       "description": "A platform for online computer science lessons",
       "tags": ["React", "TailwindCSS", "Firebase"]
     },
@@ -11,6 +12,7 @@
       "url": "https://dbqprepper.com/",
       "img": "dbqprepper.png",
       "name": "DBQ Prepper",
+      "abbreviation": "dbq prepper",
       "description": "A tool to support AP learning during COVID-19",
       "tags": ["React", "TailwindCSS", "Netlify"]
     },
@@ -18,6 +20,7 @@
       "url": "https://maribel.io/",
       "img": "maribel.png",
       "name": "Maribel - MLA Formatter",
+      "abbreviation": "maribel",
       "description": "An all-in-one tool for writing papers",
       "tags": ["JavaScript", "PDFKit", "Bulma"]
     },
@@ -25,6 +28,7 @@
       "url": "https://jumpstart2college.com/",
       "img": "j2c.png",
       "name": "J2C - Jumpstart to College",
+      "abbreviation": "j2c",
       "description": "A college date and deadline manager",
       "tags": ["JavaScript", "G-Cal API", "Bulma"]
     }
