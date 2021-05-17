@@ -28,7 +28,7 @@
           class="flex flex-col h-auto text-3xl text-center text-white md:text-3xl lg:text-4xl md:text-left font-sanspro"
         >
           <img
-            class="self-center w-48 h-48 mb-4 border rounded-full"
+            class="self-center w-56 h-56 sm:w-64 sm:h-64 mb-4 border rounded-full"
             alt="headshot"
             src="../assets/headshot.jpg"
           />
@@ -85,13 +85,14 @@
           >What am I currently building?</p>
           <p
             class="pb-12 mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >I'm currently working on expanding my online educational platform, Treetop Learning.</p>
+          >I'm currently working on expanding my freelance website design business called <a class="underline" href="https://ladderdesigns.com">
+ Ladder Designs</a>.</p>
         </div>
-        <div class="flex flex-col w-2/6 pt-12 mx-4 text-lg">
+        <div class="flex flex-col w-2/6 pt-12 pb-12 mx-4 text-lg">
           <div class="text-lg font-bold text-white md:text-xl lg:text-2xl">Where am I heading next?</div>
           <p
             class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
-          >Right now, I am flushing out my product for the Mozilla Fix-The-Internet Summer Incubator.</p>
+          >I'm about to start a SWE internship with Redfin. Throughout the summer I'll be working in the frontend with the Home Services team.</p>
         </div>
         <div class="w-1/6"></div>
       </div>
