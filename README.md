@@ -20,7 +20,7 @@ This website was built to house my personal projects, information, and interests
 
 ## Deployment
 
- This website can be reached at [https://jacobpa.tel](https://jacobpa.tel).
+ This website can be reached at [https://jseanpa.tel](https://jseanpa.tel).
 
 ## License
 
