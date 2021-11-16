@@ -122,9 +122,7 @@
           <p
             class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
           >
-            I'm currently working as a SWE intern at Redfin. Throughout the
-            summer I'll be working in the frontend in the Home Services
-            Fufillment team.
+            I'm entering my junior year and I'm actively applying for SWE internships for summer 2022.
           </p>
         </div>
         <div class="w-1/6"></div>
