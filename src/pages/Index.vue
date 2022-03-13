@@ -110,7 +110,7 @@
           >
             I'm currently working on expanding my freelance website design
             business called
-            <a class="underline" href="https://ladderdesigns.co">
+            <a class="underline hover:opacity-75" href="https://ladderdesigns.co">
               Ladder Designs</a
             >.
           </p>
@@ -122,7 +122,7 @@
           <p
             class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
           >
-            I'm entering my junior year and I'm actively applying for SWE internships for summer 2022.
+            I'm midway through my junior year and I'm actively applying for education research positions for summer 2022.
           </p>
         </div>
         <div class="w-1/6"></div>
@@ -156,25 +156,25 @@
             >
               <a href="https://github.com/jseanpatel">
                 <font-awesome
-                  class="text-white fa-lg md:fa-2x"
+                  class="text-white fa-lg md:fa-2x hover:opacity-75"
                   :icon="['fab', 'github']"
                 />
               </a>
               <a href="https://twitter.com/jseanpatel">
                 <font-awesome
-                  class="text-white fa-lg md:fa-2x"
+                  class="text-white fa-lg md:fa-2x hover:opacity-75"
                   :icon="['fab', 'twitter']"
                 />
               </a>
               <a href="https://www.linkedin.com/in/jseanpatel/">
                 <font-awesome
-                  class="text-white fa-lg md:fa-2x"
+                  class="text-white fa-lg md:fa-2x hover:opacity-75"
                   :icon="['fab', 'linkedin']"
                 />
               </a>
               <a href="https://ko-fi.com/jseanpatel">
                 <font-awesome
-                  class="text-white fa-lg md:fa-2x"
+                  class="text-white fa-lg md:fa-2x hover:opacity-75"
                   :icon="['fas', 'coffee']"
                 />
               </a>
@@ -185,14 +185,14 @@
               Send me a message:
             </div>
             <div
-              class="flex block w-auto ml-3 font-normal text-white underline md:hidden text-md overflow lg:w-auto"
-              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@gmail.com"
+              class="flex block w-auto ml-3 font-normal text-white underline hover:opacity-75 md:hidden text-md overflow lg:w-auto"
+              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@berkeley.edu"
               target="_blank"
             >
               email
             </div>
             <a
-              class="flex hidden w-auto ml-3 font-normal text-white underline md:block text-md overflow lg:w-auto"
+              class="flex hidden w-auto ml-3 font-normal text-white underline hover:opacity-75 md:block text-md overflow lg:w-auto"
               href="mailto:jseanpatel@berkeley.edu"
               target="_blank"
               >jseanpatel@berkeley.edu</a
@@ -209,7 +209,7 @@
               href="https://drive.google.com/open?id=1zn7AY7H7qoi3dBHJk6UciWDOOvsibOyN"
             >
               <div
-                class="flex w-auto ml-3 font-normal text-white underline md:ml-4 md:mt-0 text-md"
+                class="flex w-auto ml-3 font-normal text-white underline hover:opacity-75 md:ml-4 md:mt-0 text-md"
               >
                 resume
               </div>
@@ -222,7 +222,7 @@
               on Github.
               <a href="https://github.com/jseanpatel/Portfolio">
                 <font-awesome
-                  class="ml-0 text-white md:ml-1 fa-lg md:fa-2x"
+                  class="ml-0 text-white md:ml-1 fa-lg md:fa-2x hover:opacity-75"
                   :icon="['fab', 'github']"
                 />
               </a>
@@ -241,11 +241,6 @@ import Project from "~/components/Project.vue";
 import NavigationItem from "~/components/NavigationItem.vue";
 import Divider from "~/components/Divider.vue";
 import projects from "~/data/projects.json";
-
-const scrollDown = (location) => {
-  target = document.getElementByID("location");
-  target.scrollIntoView({ behavior: "smooth", alignToTop: false });
-};
 
 export default {
   components: {

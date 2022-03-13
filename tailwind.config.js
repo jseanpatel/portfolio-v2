@@ -1,33 +1,38 @@
 module.exports = {
+  purge: [
+    "./pages/**/*.vue",
+    "./components/**/*.vue",
+    "./plugins/**/*.vue",
+    "./static/**/*.vue",
+    "./store/**/*.vue",
+  ],
+  variants: {},
   theme: {
     extend: {
       fontFamily: {
-        sanspro: ["Source Sans Pro", "sans-serif"]
+        sanspro: ["Source Sans Pro", "sans-serif"],
       },
       colors: {
-        base_red: '#F25454',
-
+        base_red: "#F25454",
       },
       height: {
-        half: '50%',
-        xxs: '0.05rem'
+        half: "50%",
+        xxs: "0.05rem",
       },
       borderWidth: {
-        xxs: '0.05rem',
+        xxs: "0.05rem",
       },
       backgroundColor: {
-        dividerGray: '#959595',
-        backgroundGray: '#EAEAEA',
-        footerGray: '#525252',
-        footerBlack: '#333333',
-        hiddenGray: "#484848"
+        dividerGray: "#959595",
+        backgroundGray: "#EAEAEA",
+        footerGray: "#525252",
+        footerBlack: "#333333",
+        hiddenGray: "#484848",
       },
       fontSize: {
-        xxs: '0.625rem'
-      },  
+        xxs: "0.625rem",
+      },
+    },
   },
- 
-},
-plugins: [
-],
-}
+  plugins: [],
+};
