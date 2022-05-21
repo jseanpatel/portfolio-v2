@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <div class="flex w-full h-screen -mt-4 bg-red-600" id="landing">
-      <div class="self-end flex-initial w-1/6 mb-12 bg-red-600">
+    <div class="flex w-full h-screen -mt-4 bg-green-700" id="landing">
+      <div class="self-end flex-initial w-1/6 mb-12 bg-green-700">
         <div class="flex justify-center hidden lg:block">
           <div
             class="flex flex-col ml-16 text-lg text-center text-white lg:ml-0 md:text-xl lg:text-2xl font-sanspro"
@@ -23,15 +23,14 @@
           </div>
         </div>
       </div>
-      <div class="self-center flex-initial w-4/6 bg-red-600">
+      <div class="self-center flex-initial w-4/6 bg-green-700">
         <div
           class="flex flex-col h-auto text-3xl text-center text-white md:text-3xl lg:text-4xl md:text-left font-sanspro"
         >
-          <img
-            class="self-center w-56 h-56 mb-4 border rounded-full sm:w-64 sm:h-64"
-            alt="headshot"
-            src="../assets/headshot.jpg"
-          />
+          <div
+            class="self-center w-56 h-56 mb-4 bg-white border rounded-full sm:w-64 sm:h-64"
+          >
+          </div>
 
           <p class="self-center">
             <span
@@ -46,7 +45,7 @@
         </div>
       </div>
 
-      <div class="w-1/6 bg-red-600"></div>
+      <div class="w-1/6 bg-green-700"></div>
     </div>
     <divider
       class="justify-center w-full align-middle"
@@ -122,8 +121,7 @@
           <p
             class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
           >
-            I'm midway through my junior year and I'm actively applying for education research positions for summer 2022.
-          </p>
+I just wrapped up my junior year, and I'm looking forward to traveling this summer.          </p>
         </div>
         <div class="w-1/6"></div>
       </div>
@@ -131,13 +129,13 @@
         <div class="w-1/6"></div>
         <div class="flex flex-row hidden w-1/6 lg:flex">
           <div class="mt-24 text-xl font-bold text-white lg:text-2xl">
-            <span class="p-4 bg-red-600 rounded-lg">Jacob Patel</span>
+            <span class="p-4 bg-green-700 rounded-lg">Jacob Patel</span>
           </div>
         </div>
         <div id="contact" class="w-4/6 lg:w-3/6">
           <p class="mt-20 text-xl font-extrabold text-white lg:text-2xl">
             I work to bridge financial barriers and expand education to all.
-            <span class="text-red-600">Let's build something together.</span>
+            <span class="text-green-700">Let's build something together.</span>
           </p>
           <div class="flex flex-row mt-6">
             <div
@@ -241,7 +239,6 @@ import Project from "~/components/Project.vue";
 import NavigationItem from "~/components/NavigationItem.vue";
 import Divider from "~/components/Divider.vue";
 import projects from "~/data/projects.json";
-
 export default {
   components: {
     TechnologyTag,
@@ -259,5 +256,3 @@ export default {
   },
 };
 </script>
-
-

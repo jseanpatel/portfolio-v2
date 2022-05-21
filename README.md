@@ -1,6 +1,6 @@
-# Developer Portfolio
+# Developer Portfolio - Version Two
 
-*Website for my personal developer portfolio.* 
+*Website for my former personal developer portfolio.* 
 
 ## Table of Contents
 - [Description](#description)
@@ -20,7 +20,7 @@ This website was built to house my personal projects, information, and interests
 
 ## Deployment
 
- This website can be reached at [https://jseanpa.tel](https://jseanpa.tel).
+ This website can be reached at [https://jacobpa.tel](https://jacobpa.tel).
 
 ## License
 

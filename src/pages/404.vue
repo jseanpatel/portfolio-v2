@@ -1,7 +1,7 @@
 <template>
   <Layout>
-    <div class="flex w-full h-screen -mt-4 bg-red-600" id="landing">
-      <div class="self-end flex-initial w-1/6 mb-12 bg-red-600">
+    <div class="flex w-full h-screen -mt-4 bg-green-700" id="landing">
+      <div class="self-end flex-initial w-1/6 mb-12 bg-green-700">
         <div class="flex justify-center hidden lg:block">
           <div
             class="flex flex-col ml-16 text-lg text-center text-white lg:ml-0 md:text-xl lg:text-2xl font-sanspro"
@@ -23,7 +23,7 @@
           </div>
         </div>
       </div>
-      <div class="self-center flex-initial w-4/6 bg-red-600">
+      <div class="self-center flex-initial w-4/6 bg-green-700">
         <div
           class="flex flex-col h-auto text-3xl text-center text-white md:text-3xl lg:text-4xl md:text-left font-sanspro"
         >
@@ -32,7 +32,7 @@
           <p class="self-center">
             <span
               class="pr-1 text-5xl font-semibold transition duration-300 transformation-shadow"
-              >404 Page not found </span
+              >404 - Page not found </span
             >
             
             </span>
@@ -40,7 +40,7 @@
         </div>
       </div>
 
-      <div class="w-1/6 bg-red-600"></div>
+      <div class="w-1/6 bg-green-700"></div>
     </div>
     <divider
       class="justify-center w-full align-middle"

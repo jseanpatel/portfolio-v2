@@ -8,14 +8,6 @@
       "description": "A platform for online computer science lessons",
       "tags": ["React", "TailwindCSS", "Firebase"]
     },
-     "ladderdesigns": {
-      "url": "https://ladderdesigns.co/",
-      "img": "ladderdesigns.png",
-      "name": "Ladder Designs",
-      "abbreviation": "ladder designs",
-      "description": "Affordable, accessible website design by people who care",
-      "tags": ["Next", "TailwindCSS", "Netlify"]
-    },
     "dbqprepper": {
       "url": "https://dbqprepper.com/",
       "img": "dbqprepper.png",
@@ -24,7 +16,6 @@
       "description": "A tool to support AP learning during COVID-19",
       "tags": ["React", "TailwindCSS", "Netlify"]
     },
-   
     "maribel": {
       "url": "https://maribel.io/",
       "img": "maribel.png",
@@ -34,7 +25,7 @@
       "tags": ["JavaScript", "PDFKit", "Bulma"]
     },
     "j2c": {
-      "url": "https://github.com/jseanpatel/j2c",
+      "url": "https://jumpstart2college.com/",
       "img": "j2c.png",
       "name": "J2C - Jumpstart to College",
       "abbreviation": "j2c",
