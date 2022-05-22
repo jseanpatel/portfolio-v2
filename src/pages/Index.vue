@@ -4,7 +4,7 @@
       <div class="self-end flex-initial w-1/6 mb-12 bg-green-700">
         <div class="flex justify-center hidden lg:block">
           <div
-            class="flex flex-col ml-16 text-lg text-center text-white lg:ml-0 md:text-xl lg:text-2xl font-sanspro"
+            class="flex flex-col ml-16 text-lg text-center text-white  lg:ml-0 md:text-xl lg:text-2xl font-sanspro"
           >
             <a href="#about" class="font-bold hover:underline">about</a>
             <a href="#projects" class="font-bold hover:underline">projects</a>
@@ -25,16 +25,15 @@
       </div>
       <div class="self-center flex-initial w-4/6 bg-green-700">
         <div
-          class="flex flex-col h-auto text-3xl text-center text-white md:text-3xl lg:text-4xl md:text-left font-sanspro"
+          class="flex flex-col h-auto text-3xl text-center text-white  md:text-3xl lg:text-4xl md:text-left font-sanspro"
         >
           <div
-            class="self-center w-56 h-56 mb-4 bg-white border rounded-full sm:w-64 sm:h-64"
-          >
-          </div>
+            class="self-center w-56 h-56 mb-4 bg-white border rounded-full  sm:w-64 sm:h-64"
+          ></div>
 
           <p class="self-center">
             <span
-              class="pr-1 font-semibold transition duration-300 transformation-shadow"
+              class="pr-1 font-semibold transition duration-300  transformation-shadow"
               >Hi.</span
             >
             <span class="font-thin">
@@ -55,7 +54,7 @@
     <div>
       <div class="flex justify-center w-full py-32 bg-backgroundGray">
         <div
-          class="self-center w-2/3 p-10 text-center bg-white rounded-lg text-md lg:text-xl md:text-lg md:p-16 sm:text-sm font-sanspro"
+          class="self-center w-2/3 p-10 text-center bg-white rounded-lg  text-md lg:text-xl md:text-lg md:p-16 sm:text-sm font-sanspro"
         >
           <p>
             I am an undergraduate at the University of California, Berkeley
@@ -87,7 +86,7 @@
             :url="project.url"
           ></project>
           <hr
-            class="justify-center invisible border-gray-300 border-solid rounded-lg md:visible"
+            class="justify-center invisible border-gray-300 border-solid rounded-lg  md:visible"
           />
         </div>
       </div>
@@ -105,11 +104,14 @@
             What am I currently building?
           </p>
           <p
-            class="pb-12 mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
+            class="pb-12 mt-4 text-sm font-normal text-white  md:text-md lg:text-lg lg:mt-6"
           >
             I'm currently working on expanding my freelance website design
             business called
-            <a class="underline hover:opacity-75" href="https://ladderdesigns.co">
+            <a
+              class="underline hover:opacity-75"
+              href="https://ladderdesigns.co"
+            >
               Ladder Designs</a
             >.
           </p>
@@ -119,9 +121,11 @@
             Where am I heading next?
           </div>
           <p
-            class="mt-4 text-sm font-normal text-white md:text-md lg:text-lg lg:mt-6"
+            class="mt-4 text-sm font-normal text-white  md:text-md lg:text-lg lg:mt-6"
           >
-I just wrapped up my junior year, and I'm looking forward to traveling this summer.          </p>
+            I just wrapped up my junior year, and I'm looking forward to
+            traveling this summer.
+          </p>
         </div>
         <div class="w-1/6"></div>
       </div>
@@ -139,18 +143,18 @@ I just wrapped up my junior year, and I'm looking forward to traveling this summ
           </p>
           <div class="flex flex-row mt-6">
             <div
-              class="flex flex-initial hidden w-auto font-semibold text-white md:block text-md md:text-md"
+              class="flex flex-initial hidden w-auto font-semibold text-white  md:block text-md md:text-md"
               ref="hello"
             >
               Find me on social media:
             </div>
             <div
-              class="flex flex-initial block w-auto font-semibold text-white md:hidden text-md md:text-md"
+              class="flex flex-initial block w-auto font-semibold text-white  md:hidden text-md md:text-md"
             >
               Social media:
             </div>
             <div
-              class="flex flex-row items-center justify-around w-1/2 ml-3 text-sm font-normal text-white underline sm:w-1/3 md:w-1/4 lg:w-1/4 md:mt-0"
+              class="flex flex-row items-center justify-around w-1/2 ml-3 text-sm font-normal text-white underline  sm:w-1/3 md:w-1/4 lg:w-1/4 md:mt-0"
             >
               <a href="https://github.com/jseanpatel">
                 <font-awesome
@@ -183,14 +187,14 @@ I just wrapped up my junior year, and I'm looking forward to traveling this summ
               Send me a message:
             </div>
             <div
-              class="flex block w-auto ml-3 font-normal text-white underline hover:opacity-75 md:hidden text-md overflow lg:w-auto"
+              class="flex block w-auto ml-3 font-normal text-white underline  hover:opacity-75 md:hidden text-md overflow lg:w-auto"
               href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=hello@jseanpa.tel"
               target="_blank"
             >
               email
             </div>
             <a
-              class="flex hidden w-auto ml-3 font-normal text-white underline hover:opacity-75 md:block text-md overflow lg:w-auto"
+              class="flex hidden w-auto ml-3 font-normal text-white underline  hover:opacity-75 md:block text-md overflow lg:w-auto"
               href="mailto:hello@jseanpa.tel"
               target="_blank"
               >hello@jseanpa.tel</a
@@ -199,7 +203,7 @@ I just wrapped up my junior year, and I'm looking forward to traveling this summ
 
           <div class="flex flex-row mt-2">
             <div
-              class="flex justify-start w-auto font-semibold text-white text-md sm:text-md"
+              class="flex justify-start w-auto font-semibold text-white  text-md sm:text-md"
             >
               Checkout out my resume:
             </div>
@@ -207,7 +211,7 @@ I just wrapped up my junior year, and I'm looking forward to traveling this summ
               href="https://drive.google.com/open?id=1zn7AY7H7qoi3dBHJk6UciWDOOvsibOyN"
             >
               <div
-                class="flex w-auto ml-3 font-normal text-white underline hover:opacity-75 md:ml-4 md:mt-0 text-md"
+                class="flex w-auto ml-3 font-normal text-white underline  hover:opacity-75 md:ml-4 md:mt-0 text-md"
               >
                 resume
               </div>
@@ -220,7 +224,7 @@ I just wrapped up my junior year, and I'm looking forward to traveling this summ
               on Github.
               <a href="https://github.com/jseanpatel/Portfolio">
                 <font-awesome
-                  class="ml-0 text-white md:ml-1 fa-lg md:fa-2x hover:opacity-75"
+                  class="ml-0 text-white  md:ml-1 fa-lg md:fa-2x hover:opacity-75"
                   :icon="['fab', 'github']"
                 />
               </a>
