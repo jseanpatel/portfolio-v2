@@ -184,16 +184,16 @@ I just wrapped up my junior year, and I'm looking forward to traveling this summ
             </div>
             <div
               class="flex block w-auto ml-3 font-normal text-white underline hover:opacity-75 md:hidden text-md overflow lg:w-auto"
-              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jseanpatel@berkeley.edu"
+              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=hello@jseanpa.tel"
               target="_blank"
             >
               email
             </div>
             <a
               class="flex hidden w-auto ml-3 font-normal text-white underline hover:opacity-75 md:block text-md overflow lg:w-auto"
-              href="mailto:jseanpatel@berkeley.edu"
+              href="mailto:hello@jseanpa.tel"
               target="_blank"
-              >jseanpatel@berkeley.edu</a
+              >hello@jseanpa.tel</a
             >
           </div>
 
