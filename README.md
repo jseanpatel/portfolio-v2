@@ -14,19 +14,19 @@ This website was built to house my personal projects, information, and interests
 
 ## Technologies
 
-* [Vue](https://vuejs.org/)
-* [Gridsome](https://gridsome.org/)
-* [TailwindCSS](https://tailwindcss.com/)
+* Vue
+* Gridsome
+* TailwindCSS
 
 ## Deployment
 
- This website can be reached at [https://jacobpa.tel](https://jacobpa.tel).
+ This website can be reached at [https://v2.jseanpa.tel](https://v2.jseanpa.tel).
 
 ## License
 
  MIT License
 
-Copyright (c) 2019 Jacob Patel
+Copyright (c) 2022 Jacob Patel
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
