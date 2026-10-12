@@ -17,7 +17,7 @@
       "tags": ["React", "TailwindCSS", "Netlify"]
     },
     "maribel": {
-      "url": "https://maribel.io/",
+      "url": "https://maribel.netlify.app",
       "img": "maribel.png",
       "name": "Maribel - MLA Formatter",
       "abbreviation": "maribel",
